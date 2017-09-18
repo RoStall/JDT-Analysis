@@ -52,11 +52,12 @@ dev.off()
 for(k in 1:6){
   png(filename = paste('corrs/correlogram_ISS_', names(day_split_iss)[k], ".png", sep="", collapse=""),
       width = 13.3, height=7.5, units ="in", res = 150)
-  corrgram(day_split_iss[[1]][,5:24])
+  corrgram(day_split_iss[[k]][,5:24])
   title(main = paste("Design Matrix Correlogram ISS", names(day_split_iss)[k], collapse=""))
   dev.off()
 }
 
+# lasso loops for entire ISS data (days unseparated)
 for(i in 25:34) {
   fit = glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]), 
                lambda = cv.glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]))$lambda.3se)
@@ -79,6 +80,31 @@ for(i in 25:34) {
   dev.off()
 }
 
+# lasso loops for normTime
+for(k in 1:6){
+  for(i in 25:34){
+    fit = glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]), 
+                 lambda = cv.glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]))$lambda.3se)
+    
+    png(filename = paste("lassoplots/ResponseVariable_", colnames(day_split_iss[[k]])[i],"_ISS ",names(day_split_iss)[k],".png", sep="", collapse=""), res =150)             
+    
+    plot(fit)
+    par(mar=c(4.5,4.5,1,4))
+    vn=colnames(data)[5:24]
+    vnat=coef(fit)
+    vnat=vnat[-1,ncol(vnat)] # remove the intercept, and get the coefficients at the end of the path
+    axis(4, at=vnat,line=-.5,label=vn,las=1,tick=FALSE, cex.axis=0.5) 
+    title(main = paste("Response Variable ", colnames(day_split_iss[[k]])[i],"_ISS ", names(day_split_iss[k])))
+    dev.off()
+    
+    png(filename = paste("crossvals/CV_", colnames(day_split_iss[[k]])[i],"ISS ",names(day_split_iss[k]),".png", sep = "", collapse=""), res=150)
+    cvfit = cv.glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]))
+    plot(cvfit)
+    title(main = paste("Cross-Validation Response Variable ", colnames(day_split_iss[[k]])[i], "_ISS ", names(day_split_iss[k])))
+    dev.off()
+    
+  }
+}
 # Scatter charts?
 #png(file = "rmg_iemg_air_vs_t1.png")
 
