@@ -36,16 +36,16 @@ df.treatmenta = sep_plat[[5]]
 df.treatmentb = sep_plat[[6]]
 
 # lets examine only ISS case for now.
+
+# Split ISS cases
+day_split_iss = dlply(df.iss,"normTime", identity)
 # commented code below to be inserted when the labelling is all prepped.
 
-# png(filename="your/file/location/name.png")
-# plot(fit)
-# dev.off()
 
-# TODO include cross-validation procedure to optimize outcomes here. Also plot those CV's.
+
 ##  output to files
-png(filename = 'corrgram.png', width=1024, height=1024)
-corrgram(data[,5:24])
+png(filename = 'corrgram.png', width=13.3, height=7.5, units = "in", res = 150)
+corrgram(df.iss[,5:24])
 title(main = "Design Matrix Correlogram")
 dev.off()
 
@@ -54,7 +54,7 @@ for(i in 25:34) {
   fit = glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]), 
                lambda = cv.glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]))$lambda.3se)
   
-  png(filename = paste("lassoplots/ResponseVariable_", colnames(data)[i] ,".png", sep="", collapse=""))             
+  png(filename = paste("lassoplots/ResponseVariable_", colnames(data)[i] ,".png", sep="", collapse=""), res =150)             
   
   plot(fit)
   par(mar=c(4.5,4.5,1,4))
@@ -62,22 +62,22 @@ for(i in 25:34) {
   vnat=coef(fit)
   vnat=vnat[-1,ncol(vnat)] # remove the intercept, and get the coefficients at the end of the path
   axis(4, at=vnat,line=-.5,label=vn,las=1,tick=FALSE, cex.axis=0.5) 
-  title(main = paste("Response Variable ", colnames(data)[i]))
+  title(main = paste("Response Variable ", colnames(df.iss)[i]))
   dev.off()
   
-  png(filename = paste("crossvals/CV_", colnames(data)[i],".png", sep = "", collapse=""))
+  png(filename = paste("crossvals/CV_", colnames(data)[i],".png", sep = "", collapse=""), res=150)
   cvfit = cv.glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]))
   plot(cvfit)
-  title(main = paste("Cross-Validation Response Variable ", colnames(data)[i]))
+  title(main = paste("Cross-Validation Response Variable ", colnames(df.iss)[i]))
   dev.off()
 }
 
-# Give the chart file a name.
+# Scatter charts?
 #png(file = "rmg_iemg_air_vs_t1.png")
 
-# Plot the chart.
-plot(data$T1,data$rmg_iemg_air,col = "blue",main = "Height & Weight Regression",
-     abline(lm(data$rmg_iemg_air~data$T1)),cex = 1.3,pch = 16,xlab = "Weight in Kg",ylab = "Height in cm")
+# 
+#plot(data$T1,data$rmg_iemg_air,col = "blue",main = "Height & Weight Regression",
+ #    abline(lm(data$rmg_iemg_air~data$T1)),cex = 1.3,pch = 16,xlab = "Weight in Kg",ylab = "Height in cm")
 
 # Save the file.
 #dev.off()
