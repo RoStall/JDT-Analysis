@@ -117,7 +117,7 @@ for(k in 1:6){
 
 
 
-# can we plot some actual data points and show a linear regression?
+# can we plot some actual data points and show a linear regression? no
 # matrix of regressions?
 
 # Above is the total system -- what if we break it up by groups -- like days, or jumps?
