@@ -39,22 +39,29 @@ df.treatmentb = sep_plat[[6]]
 
 # Split ISS cases
 day_split_iss = dlply(df.iss,"normTime", identity)
-# commented code below to be inserted when the labelling is all prepped.
+# 1-A; 2-B; 3-C; 4-E; 5-F; 6-G
 
+##  output all images to files
 
-
-##  output to files
-png(filename = 'corrgram.png', width=13.3, height=7.5, units = "in", res = 150)
+# study correlograms for various cases, see if they very based on JDT days.
+png(filename = 'corrs/corrgram.png', width=13.3, height=7.5, units = "in", res = 150)
 corrgram(df.iss[,5:24])
-title(main = "Design Matrix Correlogram")
+title(main = "Design Matrix Correlogram ISS All")
 dev.off()
 
+for(k in 1:6){
+  png(filename = paste('corrs/correlogram_ISS_', names(day_split_iss)[k], ".png", sep="", collapse=""),
+      width = 13.3, height=7.5, units ="in", res = 150)
+  corrgram(day_split_iss[[1]][,5:24])
+  title(main = paste("Design Matrix Correlogram ISS", names(day_split_iss)[k], collapse=""))
+  dev.off()
+}
 
 for(i in 25:34) {
   fit = glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]), 
                lambda = cv.glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]))$lambda.3se)
   
-  png(filename = paste("lassoplots/ResponseVariable_", colnames(data)[i] ,".png", sep="", collapse=""), res =150)             
+  png(filename = paste("lassoplots/ResponseVariable_", colnames(df.iss)[i] ,".png", sep="", collapse=""), res =150)             
   
   plot(fit)
   par(mar=c(4.5,4.5,1,4))
@@ -65,7 +72,7 @@ for(i in 25:34) {
   title(main = paste("Response Variable ", colnames(df.iss)[i]))
   dev.off()
   
-  png(filename = paste("crossvals/CV_", colnames(data)[i],".png", sep = "", collapse=""), res=150)
+  png(filename = paste("crossvals/CV_", colnames(df.iss)[i],".png", sep = "", collapse=""), res=150)
   cvfit = cv.glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]))
   plot(cvfit)
   title(main = paste("Cross-Validation Response Variable ", colnames(df.iss)[i]))
