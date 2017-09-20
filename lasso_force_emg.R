@@ -62,7 +62,8 @@ for(i in 25:34) {
   fit = glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]), 
                lambda = cv.glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]))$lambda.3se)
   
-  png(filename = paste("lassoplots/ResponseVariable_", colnames(df.iss)[i] ,".png", sep="", collapse=""), res =150)             
+  png(filename = paste("lassoplots/ResponseVariable_", colnames(df.iss)[i] ,".png", sep="", collapse=""),
+      res =150, width=6.5, height=6.5, units="in")             
   
   plot(fit)
   par(mar=c(4.5,4.5,1,4))
@@ -73,10 +74,11 @@ for(i in 25:34) {
   title(main = paste("Response Variable ", colnames(df.iss)[i]))
   dev.off()
   
-  png(filename = paste("crossvals/CV_", colnames(df.iss)[i],".png", sep = "", collapse=""), res=150)
+  png(filename = paste("crossvals/CV_", colnames(df.iss)[i],".png", sep = "", collapse=""),
+      res=150, width=6.5, height=6.5, units="in")
   cvfit = cv.glmnet(data.matrix(df.iss[,5:24]), data.matrix(df.iss[,i]))
   plot(cvfit)
-  title(main = paste("Cross-Validation Response Variable ", colnames(df.iss)[i]))
+  title(main = paste("Cross-Validation Response Variable ", colnames(df.iss)[i]),line=2)
   dev.off()
 }
 
@@ -86,7 +88,8 @@ for(k in 1:6){
     fit = glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]), 
                  lambda = cv.glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]))$lambda.3se)
     
-    png(filename = paste("lassoplots/ResponseVariable_", colnames(day_split_iss[[k]])[i],"_ISS ",names(day_split_iss)[k],".png", sep="", collapse=""), res =150)             
+    png(filename = paste("lassoplots/ResponseVariable_", colnames(day_split_iss[[k]])[i],"_ISS ",names(day_split_iss)[k],".png", sep="", collapse=""),
+        res =150, width=6.5, height=6.5, units="in")             
     
     plot(fit)
     par(mar=c(4.5,4.5,1,4))
@@ -97,10 +100,11 @@ for(k in 1:6){
     title(main = paste("Response Variable ", colnames(day_split_iss[[k]])[i],"_ISS ", names(day_split_iss[k])))
     dev.off()
     
-    png(filename = paste("crossvals/CV_", colnames(day_split_iss[[k]])[i],"ISS ",names(day_split_iss[k]),".png", sep = "", collapse=""), res=150)
+    png(filename = paste("crossvals/CV_", colnames(day_split_iss[[k]])[i],"ISS ",names(day_split_iss[k]),".png", sep = "", collapse=""),
+        res=150, width=6.5, height=6.5, units="in")
     cvfit = cv.glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]))
     plot(cvfit)
-    title(main = paste("Cross-Validation Response Variable ", colnames(day_split_iss[[k]])[i], "_ISS ", names(day_split_iss[k])))
+    title(main = paste("Cross-Validation Response Variable ", colnames(day_split_iss[[k]])[i], "_ISS ", names(day_split_iss[k])), line=2)
     dev.off()
     
   }
