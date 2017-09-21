@@ -6,6 +6,7 @@
 
 #### Begin
 library(tibble)
+library(gridExtra)
 library(corrgram)
 library(glmnet)
 library(dplyr)
@@ -43,6 +44,9 @@ day_split_iss = dlply(df.iss,"normTime", identity)
 
 ##  output all images to files
 
+pdf("data_output.pdf", height=11, width=8.5)
+grid.table(df.iss)
+dev.off()
 # study correlograms for various cases, see if they very based on JDT days.
 png(filename = 'corrs/corrgram.png', width=13.3, height=7.5, units = "in", res = 150)
 corrgram(df.iss[,5:24])
