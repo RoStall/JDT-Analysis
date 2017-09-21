@@ -45,8 +45,8 @@ day_split_iss = dlply(df.iss,"normTime", identity)
 ##  output all images to files
 
 # Prettified grid to table
-pdf("data_output.pdf", height=11, width=8.5)
-grid.table(head(df.iss))
+png(filename = "data_output.png", height=11, width=14, units = "in", res=150)
+grid.table(df.iss[1:30,c(1:10,26:28)])
 dev.off()
 
 # study correlograms for various cases, see if they very based on JDT days.
