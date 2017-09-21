@@ -5,12 +5,14 @@
 # Immediate goal (08/17/17) is to get a script working that will fill-in the analytic pipeline.
 
 #### Begin
+library(RColorBrewer)
 library(tibble)
 library(gridExtra)
 library(corrgram)
 library(glmnet)
 library(dplyr)
 library(plyr) # load order with above might matter
+
 setwd('~/dropbox/nasa_stretch/force_features')
 data = read.csv('~/dropbox/nasa_stretch/force_features/force_emg_expl.csv')
 
@@ -62,6 +64,8 @@ for(k in 1:6){
   title(main = paste("Design Matrix Correlogram ISS", names(day_split_iss)[k], collapse=""))
   dev.off()
 }
+
+palette(brewer.pal(12,"Paired"))
 
 # lasso loops for entire ISS data (days unseparated)
 for(i in 25:34) {
