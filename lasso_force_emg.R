@@ -44,19 +44,21 @@ day_split_iss = dlply(df.iss,"normTime", identity)
 
 ##  output all images to files
 
+# Prettified grid to table
 pdf("data_output.pdf", height=11, width=8.5)
-grid.table(df.iss)
+grid.table(head(df.iss))
 dev.off()
+
 # study correlograms for various cases, see if they very based on JDT days.
 png(filename = 'corrs/corrgram.png', width=13.3, height=7.5, units = "in", res = 150)
-corrgram(df.iss[,5:24])
+corrgram(df.iss[,5:24], upper.panel = panel.pts)
 title(main = "Design Matrix Correlogram ISS All")
 dev.off()
 
 for(k in 1:6){
   png(filename = paste('corrs/correlogram_ISS_', names(day_split_iss)[k], ".png", sep="", collapse=""),
       width = 13.3, height=7.5, units ="in", res = 150)
-  corrgram(day_split_iss[[k]][,5:24])
+  corrgram(day_split_iss[[k]][,5:24], upper.panel = panel.pts)
   title(main = paste("Design Matrix Correlogram ISS", names(day_split_iss)[k], collapse=""))
   dev.off()
 }
