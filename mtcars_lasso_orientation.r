@@ -22,7 +22,7 @@ mod = glmnet(as.matrix(mtcars[-1]), mtcars[,1])
 vn = colnames(mtcars[2:11])
 
 # lasso plot
-png(filename = 'mtcars_lasso.png', width = 6.5, height = 6.5, units= "in", res = 150)
+png(filename = 'mtcars_lasso.png', width = 8.85, height = 6.2, units= "in", res = 150)
 plot(mod, lwd =2)
 vnat = coef(mod)
 vnat = vnat[-1, ncol(vnat)]
@@ -34,7 +34,7 @@ mtext("Degrees of Freedom", side=3, line=0)
 dev.off()
 
 # cv plot
-png(filename = 'mtcars_cvlasso.png', width = 6.5, height = 6.5, units = "in", res = 150)
+png(filename = 'mtcars_cvlasso.png', width = 7.27, height = 6.09, units = "in", res = 150)
 cvfit = cv.glmnet(as.matrix(mtcars[-1]), mtcars[,1])
 plot(cvfit)
 title(main = "Cross-Validation Gas Mileage ", line=2)
