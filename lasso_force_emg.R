@@ -75,12 +75,12 @@ for(i in 25:34) {
   png(filename = paste("lassoplots/ResponseVariable_", colnames(df.iss)[i] ,".png", sep="", collapse=""),
       res =150, width=6.5, height=6.5, units="in")             
   
-  plot(fit, label = FALSE)
+  plot(fit, lwd = 2, label = FALSE)
   par(mar=c(4.5,4.5,1,4))
   vn=colnames(data)[5:24]
   vnat=coef(fit)
   vnat=vnat[-1,ncol(vnat)] # remove the intercept, and get the coefficients at the end of the path
-  axis(4, at=vnat,line=-.5,label=vn,las=1,tick=FALSE, cex.axis=0.8) 
+  axis(4, at=vnat,line=-.5,label=vn,las=1,tick=FALSE, cex.axis=1) 
   title(main = paste("Response Variable ", colnames(df.iss)[i]))
   dev.off()
   
@@ -106,7 +106,7 @@ for(k in 1:6){
     vn=colnames(data)[5:24]
     vnat=coef(fit)
     vnat=vnat[-1,ncol(vnat)] # remove the intercept, and get the coefficients at the end of the path
-    axis(4, at=vnat,line=-.5,label=vn,las=1,tick=FALSE, cex.axis=0.8) 
+    axis(4, at=vnat,line=-.5,label=vn,las=1,tick=FALSE, cex.axis=1) 
     title(main = paste("Response Variable ", colnames(day_split_iss[[k]])[i],"_ISS ", names(day_split_iss[k])))
     dev.off()
     
