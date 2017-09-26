@@ -6,9 +6,6 @@
 
 
 library(RColorBrewer)
-library(tibble)
-library(gridExtra)
-library(corrgram)
 library(glmnet)
 library(dplyr)
 library(plyr) # load order with above might matter
@@ -41,4 +38,15 @@ df.treatmentb = sep_plat[[6]]
 # Split ISS cases
 day_split_iss = dlply(df.iss,"normTime", identity)
 # 1-A; 2-B; 3-C; 4-E; 5-F; 6-G
+
+# Now, collect lasso information for each variation and construct dataframe
+dflas = data.frame()
+for(k in 1:6){
+  for(i in 25:34){
+    fit = glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]), 
+                 lambda = cv.glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]))$lambda.3se)
+    lambda_min = tail(fit$lambda, 1)
+    dflas[,k] = as.data.frame(as.matrix(coef(fit, s = lambda_min)))
+  }
+}
 

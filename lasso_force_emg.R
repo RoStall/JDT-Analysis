@@ -80,7 +80,7 @@ for(i in 25:34) {
   vn=colnames(data)[5:24]
   vnat=coef(fit)
   vnat=vnat[-1,ncol(vnat)] # remove the intercept, and get the coefficients at the end of the path
-  axis(4, at=vnat,line=-.5,label=vn,las=1,tick=FALSE, cex.axis=1) 
+  axis(4, at=vnat,line=-3,label=vn,las=1,tick=FALSE, cex.axis=1) 
   title(main = paste("Response Variable ", colnames(df.iss)[i]))
   dev.off()
   
@@ -106,7 +106,7 @@ for(k in 1:6){
     vn=colnames(data)[5:24]
     vnat=coef(fit)
     vnat=vnat[-1,ncol(vnat)] # remove the intercept, and get the coefficients at the end of the path
-    axis(4, at=vnat,line=-.5,label=vn,las=1,tick=FALSE, cex.axis=1) 
+    axis(4, at=vnat,line=-3,label=vn,las=1,tick=FALSE, cex.axis=1) 
     title(main = paste("Response Variable ", colnames(day_split_iss[[k]])[i],"_ISS ", names(day_split_iss[k])))
     dev.off()
     
