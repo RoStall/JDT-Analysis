@@ -47,9 +47,15 @@ for(k in 1:6){
     fit = glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]), 
                  lambda = cv.glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]))$lambda.3se)
     lambda_min = tail(fit$lambda, 1) # i.e., min lambda that generates largest L1 norm error in range
-    dflas = tidy(coef(fit, s = lambda_min))
-    dflas$k = k
-    laslist[[k]] = dflas
+    df.las = tidy(coef(fit, s = lambda_min)) #tidies glmnet object into dataframe
+    df.las$k = k #tracks k index
+    laslist[[k]] = df.las #stores corresponding day into list of dataframes
   }
 }
 df.las = Reduce(function(...) merge(..., all=T), laslist)
+df.las = subset(df.las, row!="(Intercept)")
+df.las = arrange(df.las, k)
+colnames(df.las)[1] = "Feature"
+
+# Now, some approach to calculating % contributions of each lasso'd variable, plot in stacked barchart
+
