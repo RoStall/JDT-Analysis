@@ -8,8 +8,8 @@
 library(RColorBrewer)
 library(broom)
 library(glmnet)
+library(plyr) # Watch for conflicts with dplyr
 library(dplyr)
-library(plyr) # load order with above might matter
 library(ggplot2)
 
 setwd('~/dropbox/nasa_stretch/force_features')
@@ -61,6 +61,10 @@ colnames(df.las)[1] = "Feature"
 # split df.las into various k vals
 #sep_las = dlply(df.las, "k", identity) # surely a 'tidyr' way of doing this? too many excerpts
 # in fact see below, ddply. Want to verify that it makes sense, that I can make sense of it
-df.las = ddply(df.las, .(k), mutate, Perc = value/sum(value)*10)
+df.las = ddply(df.las, .(k), mutate, PercentContribution = value/sum(abs(value))*100)
 
-ggplot(df.las, aes(x = k, y = Perc, fill = Feature)) + geom_bar(stat = 'identity')
+#check that sum of percent contributions adds to 100 for given group
+group_by(df.las, k) %>% summarize(Perctotal = sum(abs(PercentContribution))) # should yield 6x2 of 100 <db>
+#Heed warning on plyr, dplyr! lots of time wasted.
+
+ggplot(df.las, aes(x = k, y = PercentContribution, fill = Feature)) + geom_bar(stat = 'identity')
