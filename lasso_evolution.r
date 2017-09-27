@@ -57,5 +57,14 @@ df.las = subset(df.las, row!="(Intercept)")
 df.las = arrange(df.las, k)
 colnames(df.las)[1] = "Feature"
 
-# Now, some approach to calculating % contributions of each lasso'd variable, plot in stacked barchart
+# split df.las into various k vals
+sep_las = dlply(df.las, "k", identity) # tidier way of doing this?
+las_A = sep_las[[1]]
+las_B = sep_las[[2]]
+las_C = sep_las[[3]]
+las_E = sep_las[[4]]
+las_F = sep_las[[5]]
+las_G = sep_las[[6]]
 
+ddply(las_A, .(value), transform, Perc = value/sum(las_A$value))
+dflastest = ddply(df.las, .(value,k), transform, Perc = value/sum(df.las$value))
