@@ -59,14 +59,8 @@ df.las = arrange(df.las, k)
 colnames(df.las)[1] = "Feature"
 
 # split df.las into various k vals
-sep_las = dlply(df.las, "k", identity) # surely a 'tidyr' way of doing this? too many excerpts
-las_A = sep_las[[1]]
-las_B = sep_las[[2]]
-las_C = sep_las[[3]]
-las_E = sep_las[[4]]
-las_F = sep_las[[5]]
-las_G = sep_las[[6]]
+#sep_las = dlply(df.las, "k", identity) # surely a 'tidyr' way of doing this? too many excerpts
+# in fact see below, ddply. Want to verify that it makes sense, that I can make sense of it
+df.las = ddply(df.las, .(k), mutate, Perc = value/sum(value)*10)
 
-las_A = ddply(las_A, .(value), transform, Perc = value/sum(las_A$value))
-
-ggplot(df.las, aes(x = k, y = value, fill = Feature)) + geom_bar(stat = 'identity')
+ggplot(df.las, aes(x = k, y = Perc, fill = Feature)) + geom_bar(stat = 'identity')
