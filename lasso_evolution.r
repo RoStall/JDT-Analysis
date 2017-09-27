@@ -10,6 +10,7 @@ library(broom)
 library(glmnet)
 library(dplyr)
 library(plyr) # load order with above might matter
+library(ggplot2)
 
 setwd('~/dropbox/nasa_stretch/force_features')
 data = read.csv('~/dropbox/nasa_stretch/force_features/force_emg_expl.csv')
@@ -47,7 +48,7 @@ for(k in 1:6){
     fit = glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]), 
                  lambda = cv.glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]))$lambda.3se)
     lambda_min = tail(fit$lambda, 1) # i.e., min lambda that generates largest L1 norm error in range
-    df.las = tidy(coef(fit, s = lambda_min)) #tidies glmnet object into dataframe
+    df.las = tidy(coef(fit, s = lambda_min)) #tidies glmnet object into dataframe, broom function
     df.las$k = k #tracks k index
     laslist[[k]] = df.las #stores corresponding day into list of dataframes
   }
@@ -58,7 +59,7 @@ df.las = arrange(df.las, k)
 colnames(df.las)[1] = "Feature"
 
 # split df.las into various k vals
-sep_las = dlply(df.las, "k", identity) # tidier way of doing this?
+sep_las = dlply(df.las, "k", identity) # surely a 'tidyr' way of doing this? too many excerpts
 las_A = sep_las[[1]]
 las_B = sep_las[[2]]
 las_C = sep_las[[3]]
@@ -66,5 +67,6 @@ las_E = sep_las[[4]]
 las_F = sep_las[[5]]
 las_G = sep_las[[6]]
 
-ddply(las_A, .(value), transform, Perc = value/sum(las_A$value))
-dflastest = ddply(df.las, .(value,k), transform, Perc = value/sum(df.las$value))
+las_A = ddply(las_A, .(value), transform, Perc = value/sum(las_A$value))
+
+ggplot(df.las, aes(x = k, y = value, fill = Feature)) + geom_bar(stat = 'identity')
