@@ -26,6 +26,7 @@ data = data[,c(1:4,5:20, 31:34, 21:30)]
 #add_column(data, bmg_wav = bmg_wav, bmg_iemg = bmg_iemg, bta_wav = bta_wav, bta_iemg = bta_iemg, after = 20)
 # split data frames by platform
 
+# use this as testbed for manipulating in a more tidy way... go through datacamp courses first.
 sep_plat = dlply(data, "Platform", identity)
 
 df.control = sep_plat[[1]]

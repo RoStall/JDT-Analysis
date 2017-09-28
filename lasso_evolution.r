@@ -28,7 +28,7 @@ data = data[,c(1:4,5:20, 31:34, 21:30)]
 #add_column(data, bmg_wav = bmg_wav, bmg_iemg = bmg_iemg, bta_wav = bta_wav, bta_iemg = bta_iemg, after = 20)
 # split data frames by platform
 
-sep_plat = dlply(data, "Platform", identity)
+sep_plat = dlply(data, "Platform", identity) # don't necessarily need to do this, use tidy method
 
 df.control = sep_plat[[1]]
 df.flywheel = sep_plat[[2]]
@@ -58,14 +58,20 @@ df.las = subset(df.las, row!="(Intercept)")
 df.las = arrange(df.las, k)
 colnames(df.las)[1] = "Feature"
 
-# split df.las into various k vals
-#sep_las = dlply(df.las, "k", identity) # surely a 'tidyr' way of doing this? too many excerpts
-# in fact see below, ddply. Want to verify that it makes sense, that I can make sense of it
 df.las = ddply(df.las, .(k), mutate, PercentContribution = value/sum(abs(value))*100)
 
 #check that sum of percent contributions adds to 100 for given group
-group_by(df.las, k) %>% summarize(Perctotal = sum(abs(PercentContribution))) # should yield 6x2 of 100 <db>
-#Heed warning on plyr, dplyr! lots of time wasted.
+group_by(df.las, k) %>% summarize(Perctotal = sum(abs(PercentContribution))) 
 
-ggplot(df.las, aes(x = k, y = PercentContribution, fill = Feature)) + geom_bar(stat = 'identity') +
-  scale_fill_discrete('clarity')
+# note that these should be produced for each response variable, but each response variable
+# must in turn be investigated for stability
+
+# future, second iteration should include a feature selection pre-processing step, or some other
+# LASSO optimization technique.
+
+ggplot(subset(df.las, abs(PercentContribution)>5), aes(x = k, y = PercentContribution, fill = Feature)) +
+  geom_bar(stat = 'identity') +
+  scale_fill_manual(values = c('#7fc97f','#beaed4','#fdc086','#ffff99','#386cb0','#f0027f','#bf5b17','#666666'))+
+  ggtitle("Percent Contributions of JDT sEMG Feature LASSO Coefficients -- ISS F2/F1") +
+  scale_x_discrete("Day",limits = c("1","2","3","4","5","6"), labels = c("A", "B", "C", "E", "F", "G"))
+
