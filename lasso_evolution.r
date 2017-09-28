@@ -67,4 +67,5 @@ df.las = ddply(df.las, .(k), mutate, PercentContribution = value/sum(abs(value))
 group_by(df.las, k) %>% summarize(Perctotal = sum(abs(PercentContribution))) # should yield 6x2 of 100 <db>
 #Heed warning on plyr, dplyr! lots of time wasted.
 
-ggplot(df.las, aes(x = k, y = PercentContribution, fill = Feature)) + geom_bar(stat = 'identity')
+ggplot(df.las, aes(x = k, y = PercentContribution, fill = Feature)) + geom_bar(stat = 'identity') +
+  scale_fill_discrete('clarity')
