@@ -53,6 +53,10 @@ for(k in 1:6){
     laslist[[k]] = df.las #stores corresponding day into list of dataframes
   }
 }
+
+# This needs an edit :::: the loop overwrites itself until end. F2F1 is only output. Need to rework
+# the dataframe storage with response variables. Then output all graphs at once. This script was never finished.
+
 df.las = Reduce(function(...) merge(..., all=T), laslist)
 df.las = subset(df.las, row!="(Intercept)")
 df.las = arrange(df.las, k)
@@ -73,5 +77,5 @@ ggplot(subset(df.las, abs(PercentContribution)>5), aes(x = k, y = PercentContrib
   geom_bar(stat = 'identity') +
   scale_fill_manual(values = c('#7fc97f','#beaed4','#fdc086','#ffff99','#386cb0','#f0027f','#bf5b17','#666666'))+
   ggtitle("Percent Contributions of JDT sEMG Feature LASSO Coefficients -- ISS F2/F1") +
-  scale_x_discrete("Day",limits = c("1","2","3","4","5","6"), labels = c("A", "B", "C", "E", "F", "G"))
-
+  scale_x_discrete("Day",limits = c("1","2","3","4","5","6"), labels = c("A", "B", "C", "E", "F", "G"))+
+  theme_minimal()
