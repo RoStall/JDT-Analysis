@@ -11,10 +11,15 @@ library(corrgram)
 library(ggplot2)
 library(plyr)
 library(dplyr)
- # remember load order (plyr first)
 
-setwd('~/dropbox/nasa_stretch/force_features')
+
 data = read.csv('~/dropbox/nasa_stretch/force_features/force_emg_expl.csv')
+
+# this script outputs graphics. Build directory
+
+dir.create("~/dropbox/nasa_stretch/jdt-analysis/graphics") 
+# creates folder. Warns if already there.
+graphicpath = "~/dropbox/nasa_stretch/jdt-analysis/graphics"
 
 # calculate the bilateral ratios (4 total)
 data$bmg_wav =(data$lmg_airsum + data$rmg_airsum)/(data$lmg_lsrsum + data$rmg_lsrsum)
@@ -43,17 +48,56 @@ df.treatmentb = sep_plat[[6]]
 day_split_iss = dlply(df.iss,"normTime", identity)
 # 1-A; 2-B; 3-C; 4-E; 5-F; 6-G
 
-stat_img_iss_plot = ggplot(df.iss, aes(x=normTime, y=bmg_iemg)) + 
+stat_img_iss_plot_mg = ggplot(df.iss, aes(x=normTime, y=bmg_iemg)) + 
   geom_violin(trim=TRUE, color="darkred", fill = '#A4A4A4', alpha=0.4) + 
   theme_bw() +
   stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
   coord_cartesian(ylim=c(-.2,6)) +
-  labs(x="Day", y="Bilateral MG iEMG") +
+  labs(x="Day", y="Bilateral MG Index") +
   ggtitle("Bilateral MG Statistic (iEMG) by Day") +
   theme(plot.title = element_text(hjust = 0.5))
-  
-# truncating y axis at 6 to control for outliers.
+
+ggsave("stat_img_iss_plot_mg.png", stat_img_iss_plot_mg,
+       path = "~/Dropbox/nasa_stretch/JDT-Analysis/graphics/")
+# For stat_img_iss_plot, truncating y axis at 6 to control for outliers.
+
+stat_wav_iss_plot_mg = ggplot(df.iss, aes(x=normTime, y=bmg_wav)) +
+  geom_violin(trim=TRUE, color="darkred", fill = '#A4A4A4', alpha=0.4) + 
+  theme_bw() +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  coord_cartesian(ylim=c(-.2,8)) +
+  labs(x="Day", y="Bilateral MG Index") +
+  ggtitle("Bilateral MG Statistic (Wavelet) by Day") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("stat_wav_iss_plot_mg.png", stat_wav_iss_plot_mg,
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+stat_img_iss_plot_ta = ggplot(df.iss, aes(x=normTime, y=bta_iemg)) +
+  geom_violin(trim=TRUE, color="darkred", fill = '#A4A4A4', alpha=0.4) +
+  theme_bw() +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  coord_cartesian(ylim=c(-0.1,1.1)) +
+  labs(x="Day", y="Bilateral TA Index") +
+  ggtitle("Bilateral TA Statistic (iEMG) by Day") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("stat_img_iss_plot_ta.png", stat_img_iss_plot_ta,
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+
+stat_wav_iss_plot_ta = ggplot(df.iss, aes(x=normTime, y=bta_iemg)) +
+  geom_violin(trim=TRUE, color="darkred", fill = '#A4A4A4', alpha=0.4) +
+  theme_bw() +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  coord_cartesian(ylim=c(-0.1,1.1)) +
+  labs(x="Day", y="Bilateral TA Index") +
+  ggtitle("Bilateral TA Statistic (Wavelet) by Day") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("stat_wav_iss_plot_ta.png", stat_wav_iss_plot_ta,
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
 
 # jump and day splits for ISS
-
+# Want violin plots for jump numbers subsetted under normtime.
 
