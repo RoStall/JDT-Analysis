@@ -43,7 +43,8 @@ df.treatmenta = sep_plat[[5]]
 df.treatmentb = sep_plat[[6]]
 
 # lets examine only ISS case for now.
-
+# First, some subjects have more than 3 jumps in a given experiment day. Remove these.
+df.iss = filter(df.iss, jumpNo <= 3)
 # Split ISS cases
 day_split_iss = dlply(df.iss,"normTime", identity)
 # 1-A; 2-B; 3-C; 4-E; 5-F; 6-G
@@ -99,5 +100,52 @@ ggsave("stat_wav_iss_plot_ta.png", stat_wav_iss_plot_ta,
        path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
 
 # jump and day splits for ISS
-# Want violin plots for jump numbers subsetted under normtime.
 
+# facet by day
+byjump_bta_iemg = ggplot(df.iss, aes(x=as.factor(jumpNo), y=bta_iemg)) + facet_wrap(~normTime) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  coord_cartesian(ylim=c(0.0,1.5)) +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="Bilateral TA Index (iEMG)") +
+  ggtitle("Bilateral TA Statistic (iEMG) by Day") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("stat_iemg_iss_byjump_bta.png", byjump_bta_iemg,
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+byjump_bta_wav = ggplot(df.iss, aes(x=as.factor(jumpNo), y=bta_wav)) + facet_wrap(~normTime) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  coord_cartesian(ylim=c(0.0,5)) +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="Bilateral TA Index (Wavelet)") +
+  ggtitle("Bilateral TA Statistic (Wavelet) by Day") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("stat_wav_iss_byjump_bta.png", byjump_bta_wav,
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+byjump_bmg_iemg = ggplot(df.iss, aes(x=as.factor(jumpNo), y=bmg_iemg)) + facet_wrap(~normTime) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  coord_cartesian(ylim=c(0.0,6)) +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="Bilateral MG Index (iEMG)") +
+  ggtitle("Bilateral MG Statistic (iEMG) by Day") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("stat_iemg_iss_byjump_bmg.png", byjump_bmg_iemg,
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+byjump_bmg_wav = ggplot(df.iss, aes(x=as.factor(jumpNo), y=bmg_wav)) + facet_wrap(~normTime) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  coord_cartesian(ylim=c(0.0,18)) +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="Bilateral MG Index (Wavelet)") +
+  ggtitle("Bilateral MG Statistic (Wavelet) by Day") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("stat_wav_iss_byjump_bmg.png", byjump_bmg_wav,
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")

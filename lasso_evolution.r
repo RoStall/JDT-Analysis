@@ -79,3 +79,5 @@ ggplot(subset(df.las, abs(PercentContribution)>5), aes(x = k, y = PercentContrib
   ggtitle("Percent Contributions of JDT sEMG Feature LASSO Coefficients -- ISS F2/F1") +
   scale_x_discrete("Day",limits = c("1","2","3","4","5","6"), labels = c("A", "B", "C", "E", "F", "G"))+
   theme_minimal()
+
+
