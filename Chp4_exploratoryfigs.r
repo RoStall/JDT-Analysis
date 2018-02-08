@@ -71,7 +71,7 @@ dev.off()
 
 fit.lnorm.bmg_wav = fitdist(df.iss.eps$bmg_wav,"lnorm")
 fit.lnorm.bta_iemg = fitdist(df.iss.eps$bta_iemg,"lnorm")
-fit.lnorm.bta_wav = fitdist(df.iss.esp$bta_wav, "lnorm")
+fit.lnorm.bta_wav = fitdist(df.iss.eps$bta_wav, "lnorm")
 
 # JDT bilateral ratio distributions via violin plot.
 stat_img_iss_plot_mg = ggplot(df.iss, aes(x=normTime, y=bmg_iemg)) + 
@@ -224,7 +224,7 @@ F1_byday = ggplot(df.iss, aes(x=normTime, y=F1)) +
         axis.text = element_text(size=16))
 
 ggsave("F1_byday.png", F1_byday,
-       path="~Dropbox/nasa_stretch/JDT-analysis/graphics/")
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
 
 F2_byday = ggplot(df.iss, aes(x=normTime, y=F2)) +
   geom_violin(trim=TRUE, color="darkred", fill = '#A4A4A4', alpha=0.4) +
@@ -238,7 +238,7 @@ F2_byday = ggplot(df.iss, aes(x=normTime, y=F2)) +
         axis.text = element_text(size=16))
 
 ggsave("F2_byday.png", F2_byday,
-       path="~Dropbox/nasa_stretch/JDT-analysis/graphics/")
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
 
 F3_byday = ggplot(df.iss, aes(x=normTime, y=F3)) +
   geom_violin(trim=TRUE, color="darkred", fill = '#A4A4A4', alpha=0.4) +
@@ -252,7 +252,7 @@ F3_byday = ggplot(df.iss, aes(x=normTime, y=F3)) +
         axis.text = element_text(size=16))
 
 ggsave("F3_byday.png", F3_byday,
-       path="~Dropbox/nasa_stretch/JDT-analysis/graphics/")
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
 
 
 F2F1_byday = ggplot(df.iss, aes(x=normTime, y=F2F1)) +
@@ -281,7 +281,7 @@ W1_byday = ggplot(df.iss, aes(x=normTime, y=W1)) +
         axis.title.y = element_text(size=16),
         axis.text = element_text(size=16))
 
-ggsave("W1_byday.png", W2_byday,
+ggsave("W1_byday.png", W1_byday,
        path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
 
 
