@@ -303,7 +303,7 @@ ggsave("W2_byday.png", W2_byday,
 W3_byday = ggplot(df.iss, aes(x=normTime, y=W3)) +
   geom_violin(trim=TRUE, color="darkred", fill = '#A4A4A4', alpha=0.4) +
   theme_bw() +
-  coord_cartesian(ylim=c(0, 0.10)) +
+  coord_cartesian(ylim=c(0, 0.08)) +
   stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
   labs(x="Day", y="W3 (s)") +
   ggtitle("W3 (FWHM) by Day") +
@@ -313,6 +313,109 @@ W3_byday = ggplot(df.iss, aes(x=normTime, y=W3)) +
         axis.text = element_text(size=16))
 
 ggsave("W3_byday.png", W3_byday,
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+# Facet all as well, in the spirit of 'let us see'
+
+F1_byjump = ggplot(df.iss, aes(x=as.factor(jumpNo), y=F1)) + 
+  facet_wrap(~normTime, nrow=3) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="F1 (lbs)") +
+  ggtitle("F1 Values by Jump") +
+  theme(plot.title = element_text(hjust = 0.5, size=16),
+        axis.title.x = element_text(size=16),
+        axis.title.y = element_text(size=16),
+        axis.text = element_text(size=16),
+        strip.text =  element_text(size=16))
+
+ggsave("F1_byjump.png", F1_byjump, height=7, width = 6, units='in',
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+
+F2_byjump = ggplot(df.iss, aes(x=as.factor(jumpNo), y=F2)) + 
+  facet_wrap(~normTime, nrow=3) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="F2 (lbs)") +
+  ggtitle("F2 Values by Jump") +
+  theme(plot.title = element_text(hjust = 0.5, size=16),
+        axis.title.x = element_text(size=16),
+        axis.title.y = element_text(size=16),
+        axis.text = element_text(size=16),
+        strip.text =  element_text(size=16))
+
+ggsave("F2_byjump.png", F2_byjump, height=7, width = 6, units='in',
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+
+F3_byjump = ggplot(df.iss, aes(x=as.factor(jumpNo), y=F3)) + 
+  facet_wrap(~normTime, nrow=3) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="F3 (lbs)") +
+  ggtitle("F3 Values by Jump") +
+  theme(plot.title = element_text(hjust = 0.5, size=16),
+        axis.title.x = element_text(size=16),
+        axis.title.y = element_text(size=16),
+        axis.text = element_text(size=16),
+        strip.text =  element_text(size=16))
+
+ggsave("F3_byjump.png", F3_byjump, height=7, width = 6, units='in',
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+
+F2F1_byjump = ggplot(df.iss, aes(x=as.factor(jumpNo), y=F2F1)) + 
+  facet_wrap(~normTime, nrow=3) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="F2/F1 Ratio") +
+  ggtitle("F2/F1 Ratios by Jump") +
+  theme(plot.title = element_text(hjust = 0.5, size=16),
+        axis.title.x = element_text(size=16),
+        axis.title.y = element_text(size=16),
+        axis.text = element_text(size=16),
+        strip.text =  element_text(size=16))
+
+ggsave("F2F1_byjump.png", F2F1_byjump, height=7, width = 6, units='in',
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+W2_byjump = ggplot(df.iss, aes(x=as.factor(jumpNo), y=W2)) + 
+  facet_wrap(~normTime, nrow=3) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="W2 (s)") +
+  ggtitle("W2 Values by Jump") +
+  theme(plot.title = element_text(hjust = 0.5, size=16),
+        axis.title.x = element_text(size=16),
+        axis.title.y = element_text(size=16),
+        axis.text = element_text(size=16),
+        strip.text =  element_text(size=16))
+
+ggsave("W2_byjump.png", W2_byjump, height=7, width = 6, units='in',
+       path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
+
+
+
+W3_byjump = ggplot(df.iss, aes(x=as.factor(jumpNo), y=W3)) + 
+  facet_wrap(~normTime, nrow=3) +
+  geom_violin(trim=TRUE, color="darkred", fill="#A4A4A4", alpha=0.4) +
+  theme_bw() +
+  stat_summary(fun.y=median, geom="point",fill="red", shape=23, size=2, color="red") +
+  labs(x="Jump Number", y="W3 (s)") +
+  ggtitle("W3 Values by Jump") +
+  theme(plot.title = element_text(hjust = 0.5, size=16),
+        axis.title.x = element_text(size=16),
+        axis.title.y = element_text(size=16),
+        axis.text = element_text(size=16),
+        strip.text =  element_text(size=16))
+
+ggsave("W3_byjump.png", W3_byjump, height=7, width = 6, units='in',
        path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
 
 
