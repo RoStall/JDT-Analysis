@@ -12,6 +12,10 @@ library(plyr) # Watch for conflicts with dplyr
 library(dplyr)
 library(ggplot2)
 
+# this script outputs graphics to graphics
+dir.create("~/dropbox/nasa_stretch/JDT-ML/graphics")
+
+
 setwd('~/dropbox/nasa_stretch/force_features')
 data = read.csv('~/dropbox/nasa_stretch/force_features/force_emg_expl.csv')
 
@@ -41,21 +45,21 @@ df.treatmentb = sep_plat[[6]]
 day_split_iss = dlply(df.iss,"normTime", identity)
 # 1-A; 2-B; 3-C; 4-E; 5-F; 6-G
 
+# Standardize iss predictor variables
+scale(df.iss[,5:24])
+
 # Now, collect lasso information for each variation and construct dataframe
 laslist = list()
 for(k in 1:6){
   for(i in 25:34){
     fit = glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]), 
-                 lambda = cv.glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]))$lambda.3se)
+                 lambda = cv.glmnet(data.matrix(day_split_iss[[k]][,5:24]), data.matrix(day_split_iss[[k]][,i]))$lambda.2se)
     lambda_min = tail(fit$lambda, 1) # i.e., min lambda that generates largest L1 norm error in range
     df.las = tidy(coef(fit, s = lambda_min)) #tidies glmnet object into dataframe, broom function
     df.las$k = k #tracks k index
     laslist[[k]] = df.las #stores corresponding day into list of dataframes
   }
 }
-
-# This needs an edit :::: the loop overwrites itself until end. F2F1 is only output. Need to rework
-# the dataframe storage with response variables. Then output all graphs at once. This script was never finished.
 
 df.las = Reduce(function(...) merge(..., all=T), laslist)
 df.las = subset(df.las, row!="(Intercept)")
@@ -73,11 +77,22 @@ group_by(df.las, k) %>% summarize(Perctotal = sum(abs(PercentContribution)))
 # future, second iteration should include a feature selection pre-processing step, or some other
 # LASSO optimization technique.
 
-ggplot(subset(df.las, abs(PercentContribution)>5), aes(x = k, y = PercentContribution, fill = Feature)) +
+lasso_evol = ggplot(subset(df.las, abs(PercentContribution)>5), aes(x = k, y = PercentContribution, fill = Feature)) +
   geom_bar(stat = 'identity') +
   scale_fill_manual(values = c('#7fc97f','#beaed4','#fdc086','#ffff99','#386cb0','#f0027f','#bf5b17','#666666'))+
   ggtitle("Percent Contributions of JDT sEMG Feature LASSO Coefficients -- ISS F2/F1") +
   scale_x_discrete("Day",limits = c("1","2","3","4","5","6"), labels = c("A", "B", "C", "E", "F", "G"))+
-  theme_minimal()
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size=16),
+      axis.title.x = element_text(size=14),
+      axis.title.y = element_text(size=14),
+      axis.text = element_text(size=14))
 
+ggsave("lasso_evol_abcefg.png",lasso_evol,
+       path ="~/Dropbox/nasa_stretch/JDT-ML/graphics/")
 
+# Lasso evol with B and C combined
+
+# enet evol
+
+# enet evol with B and C combined

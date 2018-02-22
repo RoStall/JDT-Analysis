@@ -1,17 +1,14 @@
 # Purpose: Perform lasso regression (iterated, single-response) using emg features as observed
-# variables and force features as response variables. These variables are calculated and stored in
-# a table in a MATLAB script. More work needed there.
+# variables and force features as response variables.
 
-# Immediate goal (08/17/17) is to get a script working that will fill-in the analytic pipeline.
-
-#### Begin
 library(RColorBrewer)
 library(tibble)
 library(gridExtra)
 library(corrgram)
 library(glmnet)
+library(plyr) # watch load order with dplyr
 library(dplyr)
-library(plyr) # load order with above might matter
+ 
 
 setwd('~/dropbox/nasa_stretch/force_features')
 data = read.csv('~/dropbox/nasa_stretch/force_features/force_emg_expl.csv')
@@ -22,11 +19,9 @@ data$bmg_iemg =(data$lmg_iemg_air + data$rmg_iemg_air)/(data$lmg_iemg_lnd + data
 data$bta_wav =(data$lta_airsum +data$rta_airsum)/(data$lta_lsrsum+ data$rta_lsrsum)
 data$bta_iemg = (data$lta_iemg_air + data$rta_iemg_air)/(data$lta_iemg_lnd + data$rta_iemg_lnd)
 
-data = data[,c(1:4,5:20, 31:34, 21:30)]
-# TODO: come back later and standardize the data -- see if it helps
-#bilat = data.frame(bmg_wav, bmg_iemg, bta_wav, bta_iemg)
-#data = 
-#add_column(data, bmg_wav = bmg_wav, bmg_iemg = bmg_iemg, bta_wav = bta_wav, bta_iemg = bta_iemg, after = 20)
+data = data[,c(1:4,5:20, 31:34, 21:30)] # bilaterals between emg and force data
+
+
 # split data frames by platform
 
 sep_plat = dlply(data, "Platform", identity)
@@ -38,7 +33,7 @@ df.shuttle = sep_plat[[4]]
 df.treatmenta = sep_plat[[5]]
 df.treatmentb = sep_plat[[6]]
 
-# lets examine only ISS case for now.
+# Standardize iss predictor variables
 
 # Split ISS cases
 day_split_iss = dlply(df.iss,"normTime", identity)
