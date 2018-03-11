@@ -419,4 +419,3 @@ ggsave("W3_byjump.png", W3_byjump, height=7, width = 6, units='in',
        path="~/Dropbox/nasa_stretch/JDT-analysis/graphics/")
 
 
-# Next, statistical significance of medians by jump -- testing, are their medians different? 
