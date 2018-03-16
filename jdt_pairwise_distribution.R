@@ -1,6 +1,6 @@
-# Next, statistical significance of medians by jump -- testing, are these statistically different
-# crude test only
-
+# This script performs a pairwise significance check between the experimental days (normTime).
+# Output: a list of latex-formatted tables (variable ltx) using xtable package. 
+# Motivation: develop some intuition of the data for those who commonly employ p-values. 
 
 library(tibble)
 library(gridExtra)
@@ -8,6 +8,7 @@ library(ggplot2)
 library(plyr)
 library(dplyr)
 library(stats)
+library(xtable)
 
 data = read.csv('~/dropbox/nasa_stretch/force_features/force_emg_expl.csv')
 
@@ -46,9 +47,13 @@ day_split_iss = dlply(df.iss,"normTime", identity)
 # 1-A; 2-B; 3-C; 4-E; 5-F; 6-G
 
 # loop over variables, with normTime
-
+k = 1
 pwtest = list()
+ltx = list()
 for (i in 5:24) {
   pwtest[[k]] = pairwise.wilcox.test(df.iss[[i]], df.iss$normTime, p.adjust.method = "BH")
+  pwtest[[k]]['data.name'] = sprintf("%s and normTime", colnames(df.iss[i]))
+  ltx[[k]] = xtable(as.data.frame(pwtest[[k]]$p.value), caption = pwtest[[k]]$data.name)
+  
   k = k + 1
 }
