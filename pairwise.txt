@@ -1,0 +1,2280 @@
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:47 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.5121 &  &  &  &  \\ 
+  C & 0.5121 & 0.5748 &  &  &  \\ 
+  E & 0.3074 & 0.5121 & 0.5121 &  &  \\ 
+  F & 0.5121 & 1.0000 & 0.5645 & 0.5121 &  \\ 
+  G & 0.3074 & 0.5121 & 0.5645 & 1.0000 & 0.5121 \\ 
+   \hline
+\end{tabular}
+\caption{lmg_airsum and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:47 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.0554 &  &  &  &  \\ 
+  C & 0.8307 & 0.0191 &  &  &  \\ 
+  E & 0.1768 & 0.8780 & 0.1768 &  &  \\ 
+  F & 0.0063 & 0.0767 & 0.0009 & 0.2502 &  \\ 
+  G & 0.0728 & 0.8307 & 0.0554 & 0.8307 & 0.2632 \\ 
+   \hline
+\end{tabular}
+\caption{lmg_lsrsum and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.8553 &  &  &  &  \\ 
+  C & 0.8553 & 0.3742 &  &  &  \\ 
+  E & 0.3742 & 0.3742 & 0.1900 &  &  \\ 
+  F & 0.6345 & 0.8553 & 0.3810 & 0.6345 &  \\ 
+  G & 0.8553 & 0.8553 & 0.6345 & 0.3742 & 0.8553 \\ 
+   \hline
+\end{tabular}
+\caption{rmg_airsum and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.2527 &  &  &  &  \\ 
+  C & 0.5082 & 0.5082 &  &  &  \\ 
+  E & 0.0080 & 0.0080 & 0.0080 &  &  \\ 
+  F & 0.0038 & 0.0026 & 0.0026 & 0.9772 &  \\ 
+  G & 0.0480 & 0.1065 & 0.0480 & 0.3011 & 0.2056 \\ 
+   \hline
+\end{tabular}
+\caption{rmg_lsrsum and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.7359 &  &  &  &  \\ 
+  C & 0.7359 & 0.8165 &  &  &  \\ 
+  E & 0.0093 & 0.0010 & 0.0010 &  &  \\ 
+  F & 0.3050 & 0.1676 & 0.1676 & 0.2869 &  \\ 
+  G & 0.4935 & 0.2869 & 0.2869 & 0.1676 & 0.7359 \\ 
+   \hline
+\end{tabular}
+\caption{lta_airsum and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.5834 &  &  &  &  \\ 
+  C & 0.0039 & 0.0016 &  &  &  \\ 
+  E & 0.0016 & 0.0000 & 0.0000 &  &  \\ 
+  F & 1.0000 & 0.6021 & 0.0029 & 0.0005 &  \\ 
+  G & 0.2578 & 0.3278 & 0.2542 & 0.0000 & 0.2578 \\ 
+   \hline
+\end{tabular}
+\caption{lta_lsrsum and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.4802 &  &  &  &  \\ 
+  C & 0.9685 & 0.4583 &  &  &  \\ 
+  E & 0.0088 & 0.0088 & 0.0088 &  &  \\ 
+  F & 0.2671 & 0.2671 & 0.2671 & 0.2671 &  \\ 
+  G & 0.2671 & 0.2671 & 0.2671 & 0.2671 & 0.9685 \\ 
+   \hline
+\end{tabular}
+\caption{rta_airsum and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.8701 &  &  &  &  \\ 
+  C & 0.0476 & 0.0089 &  &  &  \\ 
+  E & 0.0000 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.3794 & 0.2058 & 0.0023 & 0.0001 &  \\ 
+  G & 0.2058 & 0.2058 & 0.4041 & 0.0000 & 0.0186 \\ 
+   \hline
+\end{tabular}
+\caption{rta_lsrsum and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.6765 &  &  &  &  \\ 
+  C & 0.2663 & 0.2663 &  &  &  \\ 
+  E & 0.6765 & 0.6765 & 0.6765 &  &  \\ 
+  F & 0.6765 & 0.6765 & 0.6765 & 0.6765 &  \\ 
+  G & 0.3978 & 0.2663 & 0.6765 & 0.6765 & 0.6765 \\ 
+   \hline
+\end{tabular}
+\caption{lmg_iemg_air and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.9982 &  &  &  &  \\ 
+  C & 0.1238 & 0.0110 &  &  &  \\ 
+  E & 0.1682 & 0.0129 & 0.6524 &  &  \\ 
+  F & 0.1524 & 0.0110 & 0.2385 & 0.6524 &  \\ 
+  G & 0.3595 & 0.1709 & 0.6524 & 0.4683 & 0.2348 \\ 
+   \hline
+\end{tabular}
+\caption{rmg_iemg_air and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.2473 &  &  &  &  \\ 
+  C & 0.6897 & 0.6897 &  &  &  \\ 
+  E & 0.7498 & 0.6897 & 0.8842 &  &  \\ 
+  F & 0.9795 & 0.3406 & 0.7241 & 0.7498 &  \\ 
+  G & 0.6897 & 0.8842 & 0.7498 & 0.7498 & 0.6897 \\ 
+   \hline
+\end{tabular}
+\caption{lta_iemg_air and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.7966 &  &  &  &  \\ 
+  C & 0.7966 & 0.7966 &  &  &  \\ 
+  E & 0.9449 & 0.7966 & 0.7966 &  &  \\ 
+  F & 0.9449 & 0.2889 & 0.2889 & 0.9449 &  \\ 
+  G & 0.9449 & 0.7733 & 0.7082 & 0.9449 & 0.9449 \\ 
+   \hline
+\end{tabular}
+\caption{rta_iemg_air and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.7874 &  &  &  &  \\ 
+  C & 0.7874 & 0.7874 &  &  &  \\ 
+  E & 0.7874 & 0.7633 & 0.7874 &  &  \\ 
+  F & 0.8472 & 0.7874 & 0.7874 & 0.7633 &  \\ 
+  G & 0.7633 & 0.7633 & 0.7633 & 0.7874 & 0.7633 \\ 
+   \hline
+\end{tabular}
+\caption{lmg_iemg_lnd and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.0889 &  &  &  &  \\ 
+  C & 0.5547 & 0.0010 &  &  &  \\ 
+  E & 0.0261 & 0.0889 & 0.0010 &  &  \\ 
+  F & 0.1201 & 0.6352 & 0.0261 & 0.1794 &  \\ 
+  G & 0.4005 & 0.6941 & 0.0889 & 0.0969 & 0.6374 \\ 
+   \hline
+\end{tabular}
+\caption{rmg_iemg_lnd and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.1951 &  &  &  &  \\ 
+  C & 0.3851 & 0.4637 &  &  &  \\ 
+  E & 0.0104 & 0.0697 & 0.0104 &  &  \\ 
+  F & 0.7195 & 0.0839 & 0.2043 & 0.0087 &  \\ 
+  G & 0.3162 & 0.9413 & 0.7195 & 0.2043 & 0.2043 \\ 
+   \hline
+\end{tabular}
+\caption{lta_iemg_lnd and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.5506 &  &  &  &  \\ 
+  C & 0.7046 & 0.8965 &  &  &  \\ 
+  E & 0.0481 & 0.0012 & 0.0070 &  &  \\ 
+  F & 0.5506 & 0.7046 & 0.7046 & 0.0070 &  \\ 
+  G & 0.5506 & 0.8912 & 0.8787 & 0.0070 & 0.8912 \\ 
+   \hline
+\end{tabular}
+\caption{rta_iemg_lnd and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.0549 &  &  &  &  \\ 
+  C & 0.2614 & 0.2563 &  &  &  \\ 
+  E & 0.0146 & 0.1085 & 0.0323 &  &  \\ 
+  F & 0.0066 & 0.0118 & 0.0066 & 0.7446 &  \\ 
+  G & 0.0323 & 0.2614 & 0.0745 & 0.5723 & 0.2614 \\ 
+   \hline
+\end{tabular}
+\caption{bmg_wav and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.0966 &  &  &  &  \\ 
+  C & 0.0286 & 0.4119 &  &  &  \\ 
+  E & 0.0151 & 0.0509 & 0.1124 &  &  \\ 
+  F & 0.0265 & 0.0286 & 0.0772 & 0.8236 &  \\ 
+  G & 0.0561 & 0.7133 & 0.8236 & 0.1112 & 0.0772 \\ 
+   \hline
+\end{tabular}
+\caption{bmg_iemg and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.8360 &  &  &  &  \\ 
+  C & 0.4035 & 0.1713 &  &  &  \\ 
+  E & 0.0001 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.2041 & 0.1713 & 0.0220 & 0.0156 &  \\ 
+  G & 0.8848 & 0.9012 & 0.3409 & 0.0000 & 0.1903 \\ 
+   \hline
+\end{tabular}
+\caption{bta_wav and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:44:48 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.9849 &  &  &  &  \\ 
+  C & 0.8701 & 0.9849 &  &  &  \\ 
+  E & 0.0022 & 0.0001 & 0.0001 &  &  \\ 
+  F & 0.9849 & 0.9849 & 0.9849 & 0.0022 &  \\ 
+  G & 0.9849 & 0.9849 & 0.9849 & 0.0079 & 0.9849 \\ 
+   \hline
+\end{tabular}
+\caption{bta_iemg and normTime} 
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{lmg_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.5121 &  &  &  &  \\ 
+  C & 0.5121 & 0.5748 &  &  &  \\ 
+  E & 0.3074 & 0.5121 & 0.5121 &  &  \\ 
+  F & 0.5121 & 1.0000 & 0.5645 & 0.5121 &  \\ 
+  G & 0.3074 & 0.5121 & 0.5645 & 1.0000 & 0.5121 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{lmg_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.0554 &  &  &  &  \\ 
+  C & 0.8307 & 0.0191 &  &  &  \\ 
+  E & 0.1768 & 0.8780 & 0.1768 &  &  \\ 
+  F & 0.0063 & 0.0767 & 0.0009 & 0.2502 &  \\ 
+  G & 0.0728 & 0.8307 & 0.0554 & 0.8307 & 0.2632 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{rmg_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.8553 &  &  &  &  \\ 
+  C & 0.8553 & 0.3742 &  &  &  \\ 
+  E & 0.3742 & 0.3742 & 0.1900 &  &  \\ 
+  F & 0.6345 & 0.8553 & 0.3810 & 0.6345 &  \\ 
+  G & 0.8553 & 0.8553 & 0.6345 & 0.3742 & 0.8553 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{rmg_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.2527 &  &  &  &  \\ 
+  C & 0.5082 & 0.5082 &  &  &  \\ 
+  E & 0.0080 & 0.0080 & 0.0080 &  &  \\ 
+  F & 0.0038 & 0.0026 & 0.0026 & 0.9772 &  \\ 
+  G & 0.0480 & 0.1065 & 0.0480 & 0.3011 & 0.2056 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{lta_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.7359 &  &  &  &  \\ 
+  C & 0.7359 & 0.8165 &  &  &  \\ 
+  E & 0.0093 & 0.0010 & 0.0010 &  &  \\ 
+  F & 0.3050 & 0.1676 & 0.1676 & 0.2869 &  \\ 
+  G & 0.4935 & 0.2869 & 0.2869 & 0.1676 & 0.7359 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{lta_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.5834 &  &  &  &  \\ 
+  C & 0.0039 & 0.0016 &  &  &  \\ 
+  E & 0.0016 & 0.0000 & 0.0000 &  &  \\ 
+  F & 1.0000 & 0.6021 & 0.0029 & 0.0005 &  \\ 
+  G & 0.2578 & 0.3278 & 0.2542 & 0.0000 & 0.2578 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{rta_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.4802 &  &  &  &  \\ 
+  C & 0.9685 & 0.4583 &  &  &  \\ 
+  E & 0.0088 & 0.0088 & 0.0088 &  &  \\ 
+  F & 0.2671 & 0.2671 & 0.2671 & 0.2671 &  \\ 
+  G & 0.2671 & 0.2671 & 0.2671 & 0.2671 & 0.9685 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{rta_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.8701 &  &  &  &  \\ 
+  C & 0.0476 & 0.0089 &  &  &  \\ 
+  E & 0.0000 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.3794 & 0.2058 & 0.0023 & 0.0001 &  \\ 
+  G & 0.2058 & 0.2058 & 0.4041 & 0.0000 & 0.0186 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{lmg_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.6765 &  &  &  &  \\ 
+  C & 0.2663 & 0.2663 &  &  &  \\ 
+  E & 0.6765 & 0.6765 & 0.6765 &  &  \\ 
+  F & 0.6765 & 0.6765 & 0.6765 & 0.6765 &  \\ 
+  G & 0.3978 & 0.2663 & 0.6765 & 0.6765 & 0.6765 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{rmg_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.9982 &  &  &  &  \\ 
+  C & 0.1238 & 0.0110 &  &  &  \\ 
+  E & 0.1682 & 0.0129 & 0.6524 &  &  \\ 
+  F & 0.1524 & 0.0110 & 0.2385 & 0.6524 &  \\ 
+  G & 0.3595 & 0.1709 & 0.6524 & 0.4683 & 0.2348 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{lta_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.2473 &  &  &  &  \\ 
+  C & 0.6897 & 0.6897 &  &  &  \\ 
+  E & 0.7498 & 0.6897 & 0.8842 &  &  \\ 
+  F & 0.9795 & 0.3406 & 0.7241 & 0.7498 &  \\ 
+  G & 0.6897 & 0.8842 & 0.7498 & 0.7498 & 0.6897 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{rta_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.7966 &  &  &  &  \\ 
+  C & 0.7966 & 0.7966 &  &  &  \\ 
+  E & 0.9449 & 0.7966 & 0.7966 &  &  \\ 
+  F & 0.9449 & 0.2889 & 0.2889 & 0.9449 &  \\ 
+  G & 0.9449 & 0.7733 & 0.7082 & 0.9449 & 0.9449 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{lmg_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.7874 &  &  &  &  \\ 
+  C & 0.7874 & 0.7874 &  &  &  \\ 
+  E & 0.7874 & 0.7633 & 0.7874 &  &  \\ 
+  F & 0.8472 & 0.7874 & 0.7874 & 0.7633 &  \\ 
+  G & 0.7633 & 0.7633 & 0.7633 & 0.7874 & 0.7633 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{rmg_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.0889 &  &  &  &  \\ 
+  C & 0.5547 & 0.0010 &  &  &  \\ 
+  E & 0.0261 & 0.0889 & 0.0010 &  &  \\ 
+  F & 0.1201 & 0.6352 & 0.0261 & 0.1794 &  \\ 
+  G & 0.4005 & 0.6941 & 0.0889 & 0.0969 & 0.6374 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{lta_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.1951 &  &  &  &  \\ 
+  C & 0.3851 & 0.4637 &  &  &  \\ 
+  E & 0.0104 & 0.0697 & 0.0104 &  &  \\ 
+  F & 0.7195 & 0.0839 & 0.2043 & 0.0087 &  \\ 
+  G & 0.3162 & 0.9413 & 0.7195 & 0.2043 & 0.2043 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{rta_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.5506 &  &  &  &  \\ 
+  C & 0.7046 & 0.8965 &  &  &  \\ 
+  E & 0.0481 & 0.0012 & 0.0070 &  &  \\ 
+  F & 0.5506 & 0.7046 & 0.7046 & 0.0070 &  \\ 
+  G & 0.5506 & 0.8912 & 0.8787 & 0.0070 & 0.8912 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{bmg_wav and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.0549 &  &  &  &  \\ 
+  C & 0.2614 & 0.2563 &  &  &  \\ 
+  E & 0.0146 & 0.1085 & 0.0323 &  &  \\ 
+  F & 0.0066 & 0.0118 & 0.0066 & 0.7446 &  \\ 
+  G & 0.0323 & 0.2614 & 0.0745 & 0.5723 & 0.2614 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{bmg_iemg and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.0966 &  &  &  &  \\ 
+  C & 0.0286 & 0.4119 &  &  &  \\ 
+  E & 0.0151 & 0.0509 & 0.1124 &  &  \\ 
+  F & 0.0265 & 0.0286 & 0.0772 & 0.8236 &  \\ 
+  G & 0.0561 & 0.7133 & 0.8236 & 0.1112 & 0.0772 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{bta_wav and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.8360 &  &  &  &  \\ 
+  C & 0.4035 & 0.1713 &  &  &  \\ 
+  E & 0.0001 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.2041 & 0.1713 & 0.0220 & 0.0156 &  \\ 
+  G & 0.8848 & 0.9012 & 0.3409 & 0.0000 & 0.1903 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 04:46:12 2018
+\begin{table}[ht]
+\centering
+\caption{bta_iemg and normTime} 
+\begin{tabular}{rrrrrr}
+  \hline
+ & A & B & C & E & F \\ 
+  \hline
+B & 0.9849 &  &  &  &  \\ 
+  C & 0.8701 & 0.9849 &  &  &  \\ 
+  E & 0.0022 & 0.0001 & 0.0001 &  &  \\ 
+  F & 0.9849 & 0.9849 & 0.9849 & 0.0022 &  \\ 
+  G & 0.9849 & 0.9849 & 0.9849 & 0.0079 & 0.9849 \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{lmg_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5121 &  &  &  &  \\ 
+  C & 0.5121 & 0.5748 &  &  &  \\ 
+  E & 0.3074 & 0.5121 & 0.5121 &  &  \\ 
+  F & 0.5121 & 1.0000 & 0.5645 & 0.5121 &  \\ 
+  G & 0.3074 & 0.5121 & 0.5645 & 1.0000 & 0.5121 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{lmg_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0554 &  &  &  &  \\ 
+  C & 0.8307 & 0.0191 &  &  &  \\ 
+  E & 0.1768 & 0.8780 & 0.1768 &  &  \\ 
+  F & 0.0063 & 0.0767 & 0.0009 & 0.2502 &  \\ 
+  G & 0.0728 & 0.8307 & 0.0554 & 0.8307 & 0.2632 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{rmg_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8553 &  &  &  &  \\ 
+  C & 0.8553 & 0.3742 &  &  &  \\ 
+  E & 0.3742 & 0.3742 & 0.1900 &  &  \\ 
+  F & 0.6345 & 0.8553 & 0.3810 & 0.6345 &  \\ 
+  G & 0.8553 & 0.8553 & 0.6345 & 0.3742 & 0.8553 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{rmg_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2527 &  &  &  &  \\ 
+  C & 0.5082 & 0.5082 &  &  &  \\ 
+  E & 0.0080 & 0.0080 & 0.0080 &  &  \\ 
+  F & 0.0038 & 0.0026 & 0.0026 & 0.9772 &  \\ 
+  G & 0.0480 & 0.1065 & 0.0480 & 0.3011 & 0.2056 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{lta_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7359 &  &  &  &  \\ 
+  C & 0.7359 & 0.8165 &  &  &  \\ 
+  E & 0.0093 & 0.0010 & 0.0010 &  &  \\ 
+  F & 0.3050 & 0.1676 & 0.1676 & 0.2869 &  \\ 
+  G & 0.4935 & 0.2869 & 0.2869 & 0.1676 & 0.7359 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{lta_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5834 &  &  &  &  \\ 
+  C & 0.0039 & 0.0016 &  &  &  \\ 
+  E & 0.0016 & 0.0000 & 0.0000 &  &  \\ 
+  F & 1.0000 & 0.6021 & 0.0029 & 0.0005 &  \\ 
+  G & 0.2578 & 0.3278 & 0.2542 & 0.0000 & 0.2578 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{rta_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.4802 &  &  &  &  \\ 
+  C & 0.9685 & 0.4583 &  &  &  \\ 
+  E & 0.0088 & 0.0088 & 0.0088 &  &  \\ 
+  F & 0.2671 & 0.2671 & 0.2671 & 0.2671 &  \\ 
+  G & 0.2671 & 0.2671 & 0.2671 & 0.2671 & 0.9685 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{rta_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8701 &  &  &  &  \\ 
+  C & 0.0476 & 0.0089 &  &  &  \\ 
+  E & 0.0000 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.3794 & 0.2058 & 0.0023 & 0.0001 &  \\ 
+  G & 0.2058 & 0.2058 & 0.4041 & 0.0000 & 0.0186 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{lmg_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.6765 &  &  &  &  \\ 
+  C & 0.2663 & 0.2663 &  &  &  \\ 
+  E & 0.6765 & 0.6765 & 0.6765 &  &  \\ 
+  F & 0.6765 & 0.6765 & 0.6765 & 0.6765 &  \\ 
+  G & 0.3978 & 0.2663 & 0.6765 & 0.6765 & 0.6765 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{rmg_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9982 &  &  &  &  \\ 
+  C & 0.1238 & 0.0110 &  &  &  \\ 
+  E & 0.1682 & 0.0129 & 0.6524 &  &  \\ 
+  F & 0.1524 & 0.0110 & 0.2385 & 0.6524 &  \\ 
+  G & 0.3595 & 0.1709 & 0.6524 & 0.4683 & 0.2348 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{lta_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2473 &  &  &  &  \\ 
+  C & 0.6897 & 0.6897 &  &  &  \\ 
+  E & 0.7498 & 0.6897 & 0.8842 &  &  \\ 
+  F & 0.9795 & 0.3406 & 0.7241 & 0.7498 &  \\ 
+  G & 0.6897 & 0.8842 & 0.7498 & 0.7498 & 0.6897 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{rta_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7966 &  &  &  &  \\ 
+  C & 0.7966 & 0.7966 &  &  &  \\ 
+  E & 0.9449 & 0.7966 & 0.7966 &  &  \\ 
+  F & 0.9449 & 0.2889 & 0.2889 & 0.9449 &  \\ 
+  G & 0.9449 & 0.7733 & 0.7082 & 0.9449 & 0.9449 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{lmg_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7874 &  &  &  &  \\ 
+  C & 0.7874 & 0.7874 &  &  &  \\ 
+  E & 0.7874 & 0.7633 & 0.7874 &  &  \\ 
+  F & 0.8472 & 0.7874 & 0.7874 & 0.7633 &  \\ 
+  G & 0.7633 & 0.7633 & 0.7633 & 0.7874 & 0.7633 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{rmg_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0889 &  &  &  &  \\ 
+  C & 0.5547 & 0.0010 &  &  &  \\ 
+  E & 0.0261 & 0.0889 & 0.0010 &  &  \\ 
+  F & 0.1201 & 0.6352 & 0.0261 & 0.1794 &  \\ 
+  G & 0.4005 & 0.6941 & 0.0889 & 0.0969 & 0.6374 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{lta_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.1951 &  &  &  &  \\ 
+  C & 0.3851 & 0.4637 &  &  &  \\ 
+  E & 0.0104 & 0.0697 & 0.0104 &  &  \\ 
+  F & 0.7195 & 0.0839 & 0.2043 & 0.0087 &  \\ 
+  G & 0.3162 & 0.9413 & 0.7195 & 0.2043 & 0.2043 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{rta_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5506 &  &  &  &  \\ 
+  C & 0.7046 & 0.8965 &  &  &  \\ 
+  E & 0.0481 & 0.0012 & 0.0070 &  &  \\ 
+  F & 0.5506 & 0.7046 & 0.7046 & 0.0070 &  \\ 
+  G & 0.5506 & 0.8912 & 0.8787 & 0.0070 & 0.8912 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{bmg_wav and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0549 &  &  &  &  \\ 
+  C & 0.2614 & 0.2563 &  &  &  \\ 
+  E & 0.0146 & 0.1085 & 0.0323 &  &  \\ 
+  F & 0.0066 & 0.0118 & 0.0066 & 0.7446 &  \\ 
+  G & 0.0323 & 0.2614 & 0.0745 & 0.5723 & 0.2614 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{bmg_iemg and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0966 &  &  &  &  \\ 
+  C & 0.0286 & 0.4119 &  &  &  \\ 
+  E & 0.0151 & 0.0509 & 0.1124 &  &  \\ 
+  F & 0.0265 & 0.0286 & 0.0772 & 0.8236 &  \\ 
+  G & 0.0561 & 0.7133 & 0.8236 & 0.1112 & 0.0772 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{bta_wav and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8360 &  &  &  &  \\ 
+  C & 0.4035 & 0.1713 &  &  &  \\ 
+  E & 0.0001 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.2041 & 0.1713 & 0.0220 & 0.0156 &  \\ 
+  G & 0.8848 & 0.9012 & 0.3409 & 0.0000 & 0.1903 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:03:29 2018
+\begin{table}[ht]
+\caption{bta_iemg and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9849 &  &  &  &  \\ 
+  C & 0.8701 & 0.9849 &  &  &  \\ 
+  E & 0.0022 & 0.0001 & 0.0001 &  &  \\ 
+  F & 0.9849 & 0.9849 & 0.9849 & 0.0022 &  \\ 
+  G & 0.9849 & 0.9849 & 0.9849 & 0.0079 & 0.9849 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:21 2018
+\begin{table}[ht]
+\caption{lmg_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5121 &  &  &  &  \\ 
+  C & 0.5121 & 0.5748 &  &  &  \\ 
+  E & 0.3074 & 0.5121 & 0.5121 &  &  \\ 
+  F & 0.5121 & 1.0000 & 0.5645 & 0.5121 &  \\ 
+  G & 0.3074 & 0.5121 & 0.5645 & 1.0000 & 0.5121 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{lmg_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0554 &  &  &  &  \\ 
+  C & 0.8307 & 0.0191 &  &  &  \\ 
+  E & 0.1768 & 0.8780 & 0.1768 &  &  \\ 
+  F & 0.0063 & 0.0767 & 0.0009 & 0.2502 &  \\ 
+  G & 0.0728 & 0.8307 & 0.0554 & 0.8307 & 0.2632 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{rmg_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8553 &  &  &  &  \\ 
+  C & 0.8553 & 0.3742 &  &  &  \\ 
+  E & 0.3742 & 0.3742 & 0.1900 &  &  \\ 
+  F & 0.6345 & 0.8553 & 0.3810 & 0.6345 &  \\ 
+  G & 0.8553 & 0.8553 & 0.6345 & 0.3742 & 0.8553 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{rmg_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2527 &  &  &  &  \\ 
+  C & 0.5082 & 0.5082 &  &  &  \\ 
+  E & 0.0080 & 0.0080 & 0.0080 &  &  \\ 
+  F & 0.0038 & 0.0026 & 0.0026 & 0.9772 &  \\ 
+  G & 0.0480 & 0.1065 & 0.0480 & 0.3011 & 0.2056 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{lta_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7359 &  &  &  &  \\ 
+  C & 0.7359 & 0.8165 &  &  &  \\ 
+  E & 0.0093 & 0.0010 & 0.0010 &  &  \\ 
+  F & 0.3050 & 0.1676 & 0.1676 & 0.2869 &  \\ 
+  G & 0.4935 & 0.2869 & 0.2869 & 0.1676 & 0.7359 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{lta_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5834 &  &  &  &  \\ 
+  C & 0.0039 & 0.0016 &  &  &  \\ 
+  E & 0.0016 & 0.0000 & 0.0000 &  &  \\ 
+  F & 1.0000 & 0.6021 & 0.0029 & 0.0005 &  \\ 
+  G & 0.2578 & 0.3278 & 0.2542 & 0.0000 & 0.2578 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{rta_airsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.4802 &  &  &  &  \\ 
+  C & 0.9685 & 0.4583 &  &  &  \\ 
+  E & 0.0088 & 0.0088 & 0.0088 &  &  \\ 
+  F & 0.2671 & 0.2671 & 0.2671 & 0.2671 &  \\ 
+  G & 0.2671 & 0.2671 & 0.2671 & 0.2671 & 0.9685 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{rta_lsrsum and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8701 &  &  &  &  \\ 
+  C & 0.0476 & 0.0089 &  &  &  \\ 
+  E & 0.0000 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.3794 & 0.2058 & 0.0023 & 0.0001 &  \\ 
+  G & 0.2058 & 0.2058 & 0.4041 & 0.0000 & 0.0186 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{lmg_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.6765 &  &  &  &  \\ 
+  C & 0.2663 & 0.2663 &  &  &  \\ 
+  E & 0.6765 & 0.6765 & 0.6765 &  &  \\ 
+  F & 0.6765 & 0.6765 & 0.6765 & 0.6765 &  \\ 
+  G & 0.3978 & 0.2663 & 0.6765 & 0.6765 & 0.6765 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{rmg_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9982 &  &  &  &  \\ 
+  C & 0.1238 & 0.0110 &  &  &  \\ 
+  E & 0.1682 & 0.0129 & 0.6524 &  &  \\ 
+  F & 0.1524 & 0.0110 & 0.2385 & 0.6524 &  \\ 
+  G & 0.3595 & 0.1709 & 0.6524 & 0.4683 & 0.2348 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{lta_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2473 &  &  &  &  \\ 
+  C & 0.6897 & 0.6897 &  &  &  \\ 
+  E & 0.7498 & 0.6897 & 0.8842 &  &  \\ 
+  F & 0.9795 & 0.3406 & 0.7241 & 0.7498 &  \\ 
+  G & 0.6897 & 0.8842 & 0.7498 & 0.7498 & 0.6897 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{rta_iemg_air and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7966 &  &  &  &  \\ 
+  C & 0.7966 & 0.7966 &  &  &  \\ 
+  E & 0.9449 & 0.7966 & 0.7966 &  &  \\ 
+  F & 0.9449 & 0.2889 & 0.2889 & 0.9449 &  \\ 
+  G & 0.9449 & 0.7733 & 0.7082 & 0.9449 & 0.9449 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{lmg_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7874 &  &  &  &  \\ 
+  C & 0.7874 & 0.7874 &  &  &  \\ 
+  E & 0.7874 & 0.7633 & 0.7874 &  &  \\ 
+  F & 0.8472 & 0.7874 & 0.7874 & 0.7633 &  \\ 
+  G & 0.7633 & 0.7633 & 0.7633 & 0.7874 & 0.7633 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{rmg_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0889 &  &  &  &  \\ 
+  C & 0.5547 & 0.0010 &  &  &  \\ 
+  E & 0.0261 & 0.0889 & 0.0010 &  &  \\ 
+  F & 0.1201 & 0.6352 & 0.0261 & 0.1794 &  \\ 
+  G & 0.4005 & 0.6941 & 0.0889 & 0.0969 & 0.6374 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{lta_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.1951 &  &  &  &  \\ 
+  C & 0.3851 & 0.4637 &  &  &  \\ 
+  E & 0.0104 & 0.0697 & 0.0104 &  &  \\ 
+  F & 0.7195 & 0.0839 & 0.2043 & 0.0087 &  \\ 
+  G & 0.3162 & 0.9413 & 0.7195 & 0.2043 & 0.2043 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{rta_iemg_lnd and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5506 &  &  &  &  \\ 
+  C & 0.7046 & 0.8965 &  &  &  \\ 
+  E & 0.0481 & 0.0012 & 0.0070 &  &  \\ 
+  F & 0.5506 & 0.7046 & 0.7046 & 0.0070 &  \\ 
+  G & 0.5506 & 0.8912 & 0.8787 & 0.0070 & 0.8912 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{bmg_wav and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0549 &  &  &  &  \\ 
+  C & 0.2614 & 0.2563 &  &  &  \\ 
+  E & 0.0146 & 0.1085 & 0.0323 &  &  \\ 
+  F & 0.0066 & 0.0118 & 0.0066 & 0.7446 &  \\ 
+  G & 0.0323 & 0.2614 & 0.0745 & 0.5723 & 0.2614 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{bmg_iemg and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0966 &  &  &  &  \\ 
+  C & 0.0286 & 0.4119 &  &  &  \\ 
+  E & 0.0151 & 0.0509 & 0.1124 &  &  \\ 
+  F & 0.0265 & 0.0286 & 0.0772 & 0.8236 &  \\ 
+  G & 0.0561 & 0.7133 & 0.8236 & 0.1112 & 0.0772 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{bta_wav and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8360 &  &  &  &  \\ 
+  C & 0.4035 & 0.1713 &  &  &  \\ 
+  E & 0.0001 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.2041 & 0.1713 & 0.0220 & 0.0156 &  \\ 
+  G & 0.8848 & 0.9012 & 0.3409 & 0.0000 & 0.1903 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:04:22 2018
+\begin{table}[ht]
+\caption{bta_iemg and normTime} 
+\begin{tabular}{rrrrrr}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9849 &  &  &  &  \\ 
+  C & 0.8701 & 0.9849 &  &  &  \\ 
+  E & 0.0022 & 0.0001 & 0.0001 &  &  \\ 
+  F & 0.9849 & 0.9849 & 0.9849 & 0.0022 &  \\ 
+  G & 0.9849 & 0.9849 & 0.9849 & 0.0079 & 0.9849 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{lmg_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5121 &  &  &  &  \\ 
+  C & 0.5121 & 0.5748 &  &  &  \\ 
+  E & 0.3074 & 0.5121 & 0.5121 &  &  \\ 
+  F & 0.5121 & 1.0000 & 0.5645 & 0.5121 &  \\ 
+  G & 0.3074 & 0.5121 & 0.5645 & 1.0000 & 0.5121 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{lmg_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0554 &  &  &  &  \\ 
+  C & 0.8307 & 0.0191 &  &  &  \\ 
+  E & 0.1768 & 0.8780 & 0.1768 &  &  \\ 
+  F & 0.0063 & 0.0767 & 0.0009 & 0.2502 &  \\ 
+  G & 0.0728 & 0.8307 & 0.0554 & 0.8307 & 0.2632 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{rmg_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8553 &  &  &  &  \\ 
+  C & 0.8553 & 0.3742 &  &  &  \\ 
+  E & 0.3742 & 0.3742 & 0.1900 &  &  \\ 
+  F & 0.6345 & 0.8553 & 0.3810 & 0.6345 &  \\ 
+  G & 0.8553 & 0.8553 & 0.6345 & 0.3742 & 0.8553 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{rmg_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2527 &  &  &  &  \\ 
+  C & 0.5082 & 0.5082 &  &  &  \\ 
+  E & 0.0080 & 0.0080 & 0.0080 &  &  \\ 
+  F & 0.0038 & 0.0026 & 0.0026 & 0.9772 &  \\ 
+  G & 0.0480 & 0.1065 & 0.0480 & 0.3011 & 0.2056 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{lta_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7359 &  &  &  &  \\ 
+  C & 0.7359 & 0.8165 &  &  &  \\ 
+  E & 0.0093 & 0.0010 & 0.0010 &  &  \\ 
+  F & 0.3050 & 0.1676 & 0.1676 & 0.2869 &  \\ 
+  G & 0.4935 & 0.2869 & 0.2869 & 0.1676 & 0.7359 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{lta_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5834 &  &  &  &  \\ 
+  C & 0.0039 & 0.0016 &  &  &  \\ 
+  E & 0.0016 & 0.0000 & 0.0000 &  &  \\ 
+  F & 1.0000 & 0.6021 & 0.0029 & 0.0005 &  \\ 
+  G & 0.2578 & 0.3278 & 0.2542 & 0.0000 & 0.2578 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{rta_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.4802 &  &  &  &  \\ 
+  C & 0.9685 & 0.4583 &  &  &  \\ 
+  E & 0.0088 & 0.0088 & 0.0088 &  &  \\ 
+  F & 0.2671 & 0.2671 & 0.2671 & 0.2671 &  \\ 
+  G & 0.2671 & 0.2671 & 0.2671 & 0.2671 & 0.9685 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{rta_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8701 &  &  &  &  \\ 
+  C & 0.0476 & 0.0089 &  &  &  \\ 
+  E & 0.0000 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.3794 & 0.2058 & 0.0023 & 0.0001 &  \\ 
+  G & 0.2058 & 0.2058 & 0.4041 & 0.0000 & 0.0186 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{lmg_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.6765 &  &  &  &  \\ 
+  C & 0.2663 & 0.2663 &  &  &  \\ 
+  E & 0.6765 & 0.6765 & 0.6765 &  &  \\ 
+  F & 0.6765 & 0.6765 & 0.6765 & 0.6765 &  \\ 
+  G & 0.3978 & 0.2663 & 0.6765 & 0.6765 & 0.6765 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{rmg_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9982 &  &  &  &  \\ 
+  C & 0.1238 & 0.0110 &  &  &  \\ 
+  E & 0.1682 & 0.0129 & 0.6524 &  &  \\ 
+  F & 0.1524 & 0.0110 & 0.2385 & 0.6524 &  \\ 
+  G & 0.3595 & 0.1709 & 0.6524 & 0.4683 & 0.2348 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{lta_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2473 &  &  &  &  \\ 
+  C & 0.6897 & 0.6897 &  &  &  \\ 
+  E & 0.7498 & 0.6897 & 0.8842 &  &  \\ 
+  F & 0.9795 & 0.3406 & 0.7241 & 0.7498 &  \\ 
+  G & 0.6897 & 0.8842 & 0.7498 & 0.7498 & 0.6897 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{rta_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7966 &  &  &  &  \\ 
+  C & 0.7966 & 0.7966 &  &  &  \\ 
+  E & 0.9449 & 0.7966 & 0.7966 &  &  \\ 
+  F & 0.9449 & 0.2889 & 0.2889 & 0.9449 &  \\ 
+  G & 0.9449 & 0.7733 & 0.7082 & 0.9449 & 0.9449 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{lmg_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7874 &  &  &  &  \\ 
+  C & 0.7874 & 0.7874 &  &  &  \\ 
+  E & 0.7874 & 0.7633 & 0.7874 &  &  \\ 
+  F & 0.8472 & 0.7874 & 0.7874 & 0.7633 &  \\ 
+  G & 0.7633 & 0.7633 & 0.7633 & 0.7874 & 0.7633 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{rmg_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0889 &  &  &  &  \\ 
+  C & 0.5547 & 0.0010 &  &  &  \\ 
+  E & 0.0261 & 0.0889 & 0.0010 &  &  \\ 
+  F & 0.1201 & 0.6352 & 0.0261 & 0.1794 &  \\ 
+  G & 0.4005 & 0.6941 & 0.0889 & 0.0969 & 0.6374 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{lta_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.1951 &  &  &  &  \\ 
+  C & 0.3851 & 0.4637 &  &  &  \\ 
+  E & 0.0104 & 0.0697 & 0.0104 &  &  \\ 
+  F & 0.7195 & 0.0839 & 0.2043 & 0.0087 &  \\ 
+  G & 0.3162 & 0.9413 & 0.7195 & 0.2043 & 0.2043 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{rta_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5506 &  &  &  &  \\ 
+  C & 0.7046 & 0.8965 &  &  &  \\ 
+  E & 0.0481 & 0.0012 & 0.0070 &  &  \\ 
+  F & 0.5506 & 0.7046 & 0.7046 & 0.0070 &  \\ 
+  G & 0.5506 & 0.8912 & 0.8787 & 0.0070 & 0.8912 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{bmg_wav and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0549 &  &  &  &  \\ 
+  C & 0.2614 & 0.2563 &  &  &  \\ 
+  E & 0.0146 & 0.1085 & 0.0323 &  &  \\ 
+  F & 0.0066 & 0.0118 & 0.0066 & 0.7446 &  \\ 
+  G & 0.0323 & 0.2614 & 0.0745 & 0.5723 & 0.2614 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{bmg_iemg and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0966 &  &  &  &  \\ 
+  C & 0.0286 & 0.4119 &  &  &  \\ 
+  E & 0.0151 & 0.0509 & 0.1124 &  &  \\ 
+  F & 0.0265 & 0.0286 & 0.0772 & 0.8236 &  \\ 
+  G & 0.0561 & 0.7133 & 0.8236 & 0.1112 & 0.0772 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{bta_wav and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8360 &  &  &  &  \\ 
+  C & 0.4035 & 0.1713 &  &  &  \\ 
+  E & 0.0001 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.2041 & 0.1713 & 0.0220 & 0.0156 &  \\ 
+  G & 0.8848 & 0.9012 & 0.3409 & 0.0000 & 0.1903 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:08:46 2018
+\begin{table}[ht]
+\caption{bta_iemg and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9849 &  &  &  &  \\ 
+  C & 0.8701 & 0.9849 &  &  &  \\ 
+  E & 0.0022 & 0.0001 & 0.0001 &  &  \\ 
+  F & 0.9849 & 0.9849 & 0.9849 & 0.0022 &  \\ 
+  G & 0.9849 & 0.9849 & 0.9849 & 0.0079 & 0.9849 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{lmg_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5121 &  &  &  &  \\ 
+  C & 0.5121 & 0.5748 &  &  &  \\ 
+  E & 0.3074 & 0.5121 & 0.5121 &  &  \\ 
+  F & 0.5121 & 1.0000 & 0.5645 & 0.5121 &  \\ 
+  G & 0.3074 & 0.5121 & 0.5645 & 1.0000 & 0.5121 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{lmg_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0554 &  &  &  &  \\ 
+  C & 0.8307 & 0.0191 &  &  &  \\ 
+  E & 0.1768 & 0.8780 & 0.1768 &  &  \\ 
+  F & 0.0063 & 0.0767 & 0.0009 & 0.2502 &  \\ 
+  G & 0.0728 & 0.8307 & 0.0554 & 0.8307 & 0.2632 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{rmg_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8553 &  &  &  &  \\ 
+  C & 0.8553 & 0.3742 &  &  &  \\ 
+  E & 0.3742 & 0.3742 & 0.1900 &  &  \\ 
+  F & 0.6345 & 0.8553 & 0.3810 & 0.6345 &  \\ 
+  G & 0.8553 & 0.8553 & 0.6345 & 0.3742 & 0.8553 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{rmg_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2527 &  &  &  &  \\ 
+  C & 0.5082 & 0.5082 &  &  &  \\ 
+  E & 0.0080 & 0.0080 & 0.0080 &  &  \\ 
+  F & 0.0038 & 0.0026 & 0.0026 & 0.9772 &  \\ 
+  G & 0.0480 & 0.1065 & 0.0480 & 0.3011 & 0.2056 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{lta_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7359 &  &  &  &  \\ 
+  C & 0.7359 & 0.8165 &  &  &  \\ 
+  E & 0.0093 & 0.0010 & 0.0010 &  &  \\ 
+  F & 0.3050 & 0.1676 & 0.1676 & 0.2869 &  \\ 
+  G & 0.4935 & 0.2869 & 0.2869 & 0.1676 & 0.7359 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{lta_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5834 &  &  &  &  \\ 
+  C & 0.0039 & 0.0016 &  &  &  \\ 
+  E & 0.0016 & 0.0000 & 0.0000 &  &  \\ 
+  F & 1.0000 & 0.6021 & 0.0029 & 0.0005 &  \\ 
+  G & 0.2578 & 0.3278 & 0.2542 & 0.0000 & 0.2578 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{rta_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.4802 &  &  &  &  \\ 
+  C & 0.9685 & 0.4583 &  &  &  \\ 
+  E & 0.0088 & 0.0088 & 0.0088 &  &  \\ 
+  F & 0.2671 & 0.2671 & 0.2671 & 0.2671 &  \\ 
+  G & 0.2671 & 0.2671 & 0.2671 & 0.2671 & 0.9685 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{rta_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8701 &  &  &  &  \\ 
+  C & 0.0476 & 0.0089 &  &  &  \\ 
+  E & 0.0000 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.3794 & 0.2058 & 0.0023 & 0.0001 &  \\ 
+  G & 0.2058 & 0.2058 & 0.4041 & 0.0000 & 0.0186 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{lmg_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.6765 &  &  &  &  \\ 
+  C & 0.2663 & 0.2663 &  &  &  \\ 
+  E & 0.6765 & 0.6765 & 0.6765 &  &  \\ 
+  F & 0.6765 & 0.6765 & 0.6765 & 0.6765 &  \\ 
+  G & 0.3978 & 0.2663 & 0.6765 & 0.6765 & 0.6765 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{rmg_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9982 &  &  &  &  \\ 
+  C & 0.1238 & 0.0110 &  &  &  \\ 
+  E & 0.1682 & 0.0129 & 0.6524 &  &  \\ 
+  F & 0.1524 & 0.0110 & 0.2385 & 0.6524 &  \\ 
+  G & 0.3595 & 0.1709 & 0.6524 & 0.4683 & 0.2348 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{lta_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2473 &  &  &  &  \\ 
+  C & 0.6897 & 0.6897 &  &  &  \\ 
+  E & 0.7498 & 0.6897 & 0.8842 &  &  \\ 
+  F & 0.9795 & 0.3406 & 0.7241 & 0.7498 &  \\ 
+  G & 0.6897 & 0.8842 & 0.7498 & 0.7498 & 0.6897 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{rta_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7966 &  &  &  &  \\ 
+  C & 0.7966 & 0.7966 &  &  &  \\ 
+  E & 0.9449 & 0.7966 & 0.7966 &  &  \\ 
+  F & 0.9449 & 0.2889 & 0.2889 & 0.9449 &  \\ 
+  G & 0.9449 & 0.7733 & 0.7082 & 0.9449 & 0.9449 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{lmg_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7874 &  &  &  &  \\ 
+  C & 0.7874 & 0.7874 &  &  &  \\ 
+  E & 0.7874 & 0.7633 & 0.7874 &  &  \\ 
+  F & 0.8472 & 0.7874 & 0.7874 & 0.7633 &  \\ 
+  G & 0.7633 & 0.7633 & 0.7633 & 0.7874 & 0.7633 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{rmg_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0889 &  &  &  &  \\ 
+  C & 0.5547 & 0.0010 &  &  &  \\ 
+  E & 0.0261 & 0.0889 & 0.0010 &  &  \\ 
+  F & 0.1201 & 0.6352 & 0.0261 & 0.1794 &  \\ 
+  G & 0.4005 & 0.6941 & 0.0889 & 0.0969 & 0.6374 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{lta_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.1951 &  &  &  &  \\ 
+  C & 0.3851 & 0.4637 &  &  &  \\ 
+  E & 0.0104 & 0.0697 & 0.0104 &  &  \\ 
+  F & 0.7195 & 0.0839 & 0.2043 & 0.0087 &  \\ 
+  G & 0.3162 & 0.9413 & 0.7195 & 0.2043 & 0.2043 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{rta_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5506 &  &  &  &  \\ 
+  C & 0.7046 & 0.8965 &  &  &  \\ 
+  E & 0.0481 & 0.0012 & 0.0070 &  &  \\ 
+  F & 0.5506 & 0.7046 & 0.7046 & 0.0070 &  \\ 
+  G & 0.5506 & 0.8912 & 0.8787 & 0.0070 & 0.8912 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{bmg_wav and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0549 &  &  &  &  \\ 
+  C & 0.2614 & 0.2563 &  &  &  \\ 
+  E & 0.0146 & 0.1085 & 0.0323 &  &  \\ 
+  F & 0.0066 & 0.0118 & 0.0066 & 0.7446 &  \\ 
+  G & 0.0323 & 0.2614 & 0.0745 & 0.5723 & 0.2614 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{bmg_iemg and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0966 &  &  &  &  \\ 
+  C & 0.0286 & 0.4119 &  &  &  \\ 
+  E & 0.0151 & 0.0509 & 0.1124 &  &  \\ 
+  F & 0.0265 & 0.0286 & 0.0772 & 0.8236 &  \\ 
+  G & 0.0561 & 0.7133 & 0.8236 & 0.1112 & 0.0772 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{bta_wav and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8360 &  &  &  &  \\ 
+  C & 0.4035 & 0.1713 &  &  &  \\ 
+  E & 0.0001 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.2041 & 0.1713 & 0.0220 & 0.0156 &  \\ 
+  G & 0.8848 & 0.9012 & 0.3409 & 0.0000 & 0.1903 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:07 2018
+\begin{table}[ht]
+\caption{bta_iemg and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9849 &  &  &  &  \\ 
+  C & 0.8701 & 0.9849 &  &  &  \\ 
+  E & 0.0022 & 0.0001 & 0.0001 &  &  \\ 
+  F & 0.9849 & 0.9849 & 0.9849 & 0.0022 &  \\ 
+  G & 0.9849 & 0.9849 & 0.9849 & 0.0079 & 0.9849 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{lmg_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5121 &  &  &  &  \\ 
+  C & 0.5121 & 0.5748 &  &  &  \\ 
+  E & 0.3074 & 0.5121 & 0.5121 &  &  \\ 
+  F & 0.5121 & 1.0000 & 0.5645 & 0.5121 &  \\ 
+  G & 0.3074 & 0.5121 & 0.5645 & 1.0000 & 0.5121 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{lmg_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0554 &  &  &  &  \\ 
+  C & 0.8307 & 0.0191 &  &  &  \\ 
+  E & 0.1768 & 0.8780 & 0.1768 &  &  \\ 
+  F & 0.0063 & 0.0767 & 0.0009 & 0.2502 &  \\ 
+  G & 0.0728 & 0.8307 & 0.0554 & 0.8307 & 0.2632 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{rmg_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8553 &  &  &  &  \\ 
+  C & 0.8553 & 0.3742 &  &  &  \\ 
+  E & 0.3742 & 0.3742 & 0.1900 &  &  \\ 
+  F & 0.6345 & 0.8553 & 0.3810 & 0.6345 &  \\ 
+  G & 0.8553 & 0.8553 & 0.6345 & 0.3742 & 0.8553 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{rmg_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2527 &  &  &  &  \\ 
+  C & 0.5082 & 0.5082 &  &  &  \\ 
+  E & 0.0080 & 0.0080 & 0.0080 &  &  \\ 
+  F & 0.0038 & 0.0026 & 0.0026 & 0.9772 &  \\ 
+  G & 0.0480 & 0.1065 & 0.0480 & 0.3011 & 0.2056 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{lta_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7359 &  &  &  &  \\ 
+  C & 0.7359 & 0.8165 &  &  &  \\ 
+  E & 0.0093 & 0.0010 & 0.0010 &  &  \\ 
+  F & 0.3050 & 0.1676 & 0.1676 & 0.2869 &  \\ 
+  G & 0.4935 & 0.2869 & 0.2869 & 0.1676 & 0.7359 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{lta_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5834 &  &  &  &  \\ 
+  C & 0.0039 & 0.0016 &  &  &  \\ 
+  E & 0.0016 & 0.0000 & 0.0000 &  &  \\ 
+  F & 1.0000 & 0.6021 & 0.0029 & 0.0005 &  \\ 
+  G & 0.2578 & 0.3278 & 0.2542 & 0.0000 & 0.2578 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{rta_airsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.4802 &  &  &  &  \\ 
+  C & 0.9685 & 0.4583 &  &  &  \\ 
+  E & 0.0088 & 0.0088 & 0.0088 &  &  \\ 
+  F & 0.2671 & 0.2671 & 0.2671 & 0.2671 &  \\ 
+  G & 0.2671 & 0.2671 & 0.2671 & 0.2671 & 0.9685 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{rta_lsrsum and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8701 &  &  &  &  \\ 
+  C & 0.0476 & 0.0089 &  &  &  \\ 
+  E & 0.0000 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.3794 & 0.2058 & 0.0023 & 0.0001 &  \\ 
+  G & 0.2058 & 0.2058 & 0.4041 & 0.0000 & 0.0186 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{lmg_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.6765 &  &  &  &  \\ 
+  C & 0.2663 & 0.2663 &  &  &  \\ 
+  E & 0.6765 & 0.6765 & 0.6765 &  &  \\ 
+  F & 0.6765 & 0.6765 & 0.6765 & 0.6765 &  \\ 
+  G & 0.3978 & 0.2663 & 0.6765 & 0.6765 & 0.6765 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{rmg_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9982 &  &  &  &  \\ 
+  C & 0.1238 & 0.0110 &  &  &  \\ 
+  E & 0.1682 & 0.0129 & 0.6524 &  &  \\ 
+  F & 0.1524 & 0.0110 & 0.2385 & 0.6524 &  \\ 
+  G & 0.3595 & 0.1709 & 0.6524 & 0.4683 & 0.2348 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{lta_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.2473 &  &  &  &  \\ 
+  C & 0.6897 & 0.6897 &  &  &  \\ 
+  E & 0.7498 & 0.6897 & 0.8842 &  &  \\ 
+  F & 0.9795 & 0.3406 & 0.7241 & 0.7498 &  \\ 
+  G & 0.6897 & 0.8842 & 0.7498 & 0.7498 & 0.6897 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{rta_iemg_air and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7966 &  &  &  &  \\ 
+  C & 0.7966 & 0.7966 &  &  &  \\ 
+  E & 0.9449 & 0.7966 & 0.7966 &  &  \\ 
+  F & 0.9449 & 0.2889 & 0.2889 & 0.9449 &  \\ 
+  G & 0.9449 & 0.7733 & 0.7082 & 0.9449 & 0.9449 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{lmg_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.7874 &  &  &  &  \\ 
+  C & 0.7874 & 0.7874 &  &  &  \\ 
+  E & 0.7874 & 0.7633 & 0.7874 &  &  \\ 
+  F & 0.8472 & 0.7874 & 0.7874 & 0.7633 &  \\ 
+  G & 0.7633 & 0.7633 & 0.7633 & 0.7874 & 0.7633 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{rmg_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0889 &  &  &  &  \\ 
+  C & 0.5547 & 0.0010 &  &  &  \\ 
+  E & 0.0261 & 0.0889 & 0.0010 &  &  \\ 
+  F & 0.1201 & 0.6352 & 0.0261 & 0.1794 &  \\ 
+  G & 0.4005 & 0.6941 & 0.0889 & 0.0969 & 0.6374 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{lta_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.1951 &  &  &  &  \\ 
+  C & 0.3851 & 0.4637 &  &  &  \\ 
+  E & 0.0104 & 0.0697 & 0.0104 &  &  \\ 
+  F & 0.7195 & 0.0839 & 0.2043 & 0.0087 &  \\ 
+  G & 0.3162 & 0.9413 & 0.7195 & 0.2043 & 0.2043 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{rta_iemg_lnd and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.5506 &  &  &  &  \\ 
+  C & 0.7046 & 0.8965 &  &  &  \\ 
+  E & 0.0481 & 0.0012 & 0.0070 &  &  \\ 
+  F & 0.5506 & 0.7046 & 0.7046 & 0.0070 &  \\ 
+  G & 0.5506 & 0.8912 & 0.8787 & 0.0070 & 0.8912 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{bmg_wav and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0549 &  &  &  &  \\ 
+  C & 0.2614 & 0.2563 &  &  &  \\ 
+  E & 0.0146 & 0.1085 & 0.0323 &  &  \\ 
+  F & 0.0066 & 0.0118 & 0.0066 & 0.7446 &  \\ 
+  G & 0.0323 & 0.2614 & 0.0745 & 0.5723 & 0.2614 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{bmg_iemg and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.0966 &  &  &  &  \\ 
+  C & 0.0286 & 0.4119 &  &  &  \\ 
+  E & 0.0151 & 0.0509 & 0.1124 &  &  \\ 
+  F & 0.0265 & 0.0286 & 0.0772 & 0.8236 &  \\ 
+  G & 0.0561 & 0.7133 & 0.8236 & 0.1112 & 0.0772 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{bta_wav and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.8360 &  &  &  &  \\ 
+  C & 0.4035 & 0.1713 &  &  &  \\ 
+  E & 0.0001 & 0.0000 & 0.0000 &  &  \\ 
+  F & 0.2041 & 0.1713 & 0.0220 & 0.0156 &  \\ 
+  G & 0.8848 & 0.9012 & 0.3409 & 0.0000 & 0.1903 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Fri Mar 16 05:33:20 2018
+\begin{table}[ht]
+\caption{bta_iemg and normTime} 
+\begin{tabular}{cccccc}
+  \toprule
+ & A & B & C & E & F \\ 
+  \midrule
+B & 0.9849 &  &  &  &  \\ 
+  C & 0.8701 & 0.9849 &  &  &  \\ 
+  E & 0.0022 & 0.0001 & 0.0001 &  &  \\ 
+  F & 0.9849 & 0.9849 & 0.9849 & 0.0022 &  \\ 
+  G & 0.9849 & 0.9849 & 0.9849 & 0.0079 & 0.9849 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}

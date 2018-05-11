@@ -53,7 +53,13 @@ ltx = list()
 for (i in 5:24) {
   pwtest[[k]] = pairwise.wilcox.test(df.iss[[i]], df.iss$normTime, p.adjust.method = "BH")
   pwtest[[k]]['data.name'] = sprintf("%s and normTime", colnames(df.iss[i]))
-  ltx[[k]] = xtable(as.data.frame(pwtest[[k]]$p.value), caption = pwtest[[k]]$data.name)
+  ltx[[k]] = xtable(as.data.frame(pwtest[[k]]$p.value), caption = pwtest[[k]]$data.name,
+                    digits = c(4,4,4,4,4,4), align = c('c','c','c','c','c','c'))
   
   k = k + 1
 }
+
+lapply(ltx, print.xtable, append = TRUE, caption.placement = "top", booktabs = TRUE,
+       file =  "~/dropbox/nasa_stretch/jdt-analysis/pairwise.txt",
+       latex.environments = NULL)
+
